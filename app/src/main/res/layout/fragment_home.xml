@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".HomeFragment">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="35dp"
+        android:layout_gravity="center"
+        android:text="Cerdas Berlalu Lintas"/>
+
+
+    <ImageView
+        android:id="@+id/splash_logo"
+        android:layout_width="wrap_content"
+        android:layout_height="200dp"
+        android:src="@drawable/logopolantas"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="25dp"
+        android:layout_gravity="center"
+        android:text="Jadilah Pelopor Keselamatan"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="26dp"
+        android:layout_gravity="center"
+        android:text="Berlalu Lintas Dan Budayakan"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="26dp"
+        android:layout_gravity="center"
+        android:text="Sebagai Kebutuhan"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="40dp"
+        >
+        <Button
+            android:id="@+id/btnRambu"
+            android:layout_width="201dp"
+            android:layout_height="wrap_content"
+            android:text="Rambu Lalu Lintas"/>
+
+        <Button
+            android:id="@+id/btnAturan"
+            android:layout_width="201dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:text="Aturan Berkendara"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+        <Button
+            android:id="@+id/btnUjianSim"
+            android:layout_width="201dp"
+            android:layout_height="wrap_content"
+            android:text="Ujian sim"/>
+
+        <Button
+            android:id="@+id/btnProfil"
+            android:layout_width="201dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:text="Profil"/>
+    </LinearLayout>
+
+
+
+
+
+</LinearLayout>

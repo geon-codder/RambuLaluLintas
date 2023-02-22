@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/aturanBerkendaraFragment2">
+    <fragment
+        android:id="@+id/aturanBerkendaraFragment2"
+        android:name="com.geco.rambulalulintas.aturan.AturanBerkendaraFragment"
+        android:label="fragment_aturan_berkendara"
+        tools:layout="@layout/fragment_aturan_berkendara" >
+        <action
+            android:id="@+id/action_aturanBerkendaraFragment2_to_rambuPeringatanFragment"
+            app:destination="@id/rambuPeringatanFragment" />
+        <action
+            android:id="@+id/action_aturanBerkendaraFragment2_to_rambuPerintahFragment"
+            app:destination="@id/rambuPerintahFragment" />
+        <action
+            android:id="@+id/action_aturanBerkendaraFragment2_to_rambuLaranganFragment"
+            app:destination="@id/rambuLaranganFragment" />
+        <action
+            android:id="@+id/action_aturanBerkendaraFragment2_to_rambuPetunjukFragment"
+            app:destination="@id/rambuPetunjukFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/rambuPeringatanFragment"
+        android:name="com.geco.rambulalulintas.rambu.RambuPeringatanFragment"
+        android:label="fragment_rambu_peringatan"
+        tools:layout="@layout/fragment_rambu_peringatan" />
+    <fragment
+        android:id="@+id/rambuPerintahFragment"
+        android:name="com.geco.rambulalulintas.rambu.RambuPerintahFragment"
+        android:label="fragment_rambu_perintah"
+        tools:layout="@layout/fragment_rambu_perintah" />
+    <fragment
+        android:id="@+id/rambuLaranganFragment"
+        android:name="com.geco.rambulalulintas.rambu.RambuLaranganFragment"
+        android:label="fragment_rambu_larangan"
+        tools:layout="@layout/fragment_rambu_larangan" />
+    <fragment
+        android:id="@+id/rambuPetunjukFragment"
+        android:name="com.geco.rambulalulintas.rambu.RambuPetunjukFragment"
+        android:label="fragment_rambu_petunjuk"
+        tools:layout="@layout/fragment_rambu_petunjuk" />
+</navigation>
