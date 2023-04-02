@@ -10,6 +10,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textSize="35dp"
+        android:textColor="@color/black"
         android:layout_gravity="center"
         android:text="Cerdas Berlalu Lintas"/>
 
@@ -25,61 +26,64 @@
         android:layout_height="wrap_content"
         android:textSize="25dp"
         android:layout_gravity="center"
+        android:textColor="@color/black"
         android:text="Jadilah Pelopor Keselamatan"/>
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textSize="26dp"
         android:layout_gravity="center"
+        android:textColor="@color/black"
         android:text="Berlalu Lintas Dan Budayakan"/>
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textSize="26dp"
+        android:textColor="@color/black"
         android:layout_gravity="center"
+        android:layout_marginBottom="20dp"
         android:text="Sebagai Kebutuhan"/>
 
-    <LinearLayout
+<!-- TODO GANTI KE TABLE LAYOUT-->
+    <TableLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="horizontal"
-        android:layout_marginTop="40dp"
         >
-        <Button
-            android:id="@+id/btnRambu"
-            android:layout_width="201dp"
-            android:layout_height="wrap_content"
-            android:text="Rambu Lalu Lintas"/>
+        <TableRow>
+            <Button
+                android:id="@+id/btnRambu"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Rambu Lalu Lintas"/>
 
-        <Button
-            android:id="@+id/btnAturan"
-            android:layout_width="201dp"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="10dp"
-            android:text="Aturan Berkendara"/>
-    </LinearLayout>
+            <Button
+                android:id="@+id/btnAturan"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_marginStart="10dp"
+                android:text="Aturan Berkendara"/>
+        </TableRow>
 
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal"
-        >
-        <Button
-            android:id="@+id/btnUjianSim"
-            android:layout_width="201dp"
-            android:layout_height="wrap_content"
-            android:text="Ujian sim"/>
+        <TableRow>
+            <Button
+                android:id="@+id/btnUjianSim"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Ujian sim"/>
 
-        <Button
-            android:id="@+id/btnProfil"
-            android:layout_width="201dp"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="10dp"
-            android:text="Profil"/>
-    </LinearLayout>
+            <Button
+                android:id="@+id/btnProfil"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_marginStart="10dp"
+                android:text="Profil"/>
+        </TableRow>
 
-
-
+    </TableLayout>
 
 
 </LinearLayout>

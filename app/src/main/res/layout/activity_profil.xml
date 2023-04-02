@@ -1,9 +1,159 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
     tools:context=".profil.ProfilActivity">
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="50dp"
+        android:layout_gravity="center"
+        android:src="@drawable/logo_unm"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:textSize="4sp"
+        android:background="@color/teal_200"
+        android:textColor="@color/black"
+        android:layout_gravity="center"
+        android:text=" "/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="3dp"
+        android:layout_marginStart="10dp"
+        android:textSize="20sp"
+        android:textColor="@color/black"
+        android:layout_gravity="center"
+        android:layout_marginEnd="10dp"
+        android:text="Aplikasi Pembelajaran Rambu Lalu"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:textSize="20sp"
+        android:textColor="@color/black"
+        android:layout_gravity="center"
+        android:layout_marginEnd="10dp"
+        android:text="Lintas Dan Peraturan Berkendara"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:textSize="24sp"
+        android:textColor="@color/black"
+        android:layout_gravity="center"
+        android:layout_marginEnd="10dp"
+        android:text="CERDAS BERLALU LINTAS"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="3dp"
+        android:textSize="4sp"
+        android:background="@color/teal_200"
+        android:textColor="@color/black"
+        android:layout_gravity="center"
+        android:text=" "/>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="60dp"
+        android:textSize="15sp"
+        android:textColor="@color/black"
+        android:layout_gravity="center"
+        android:layout_marginEnd="10dp"
+        android:text="Muhammad Fadil Wahyudi"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="4sp"
+        android:background="@color/teal_200"
+        android:textColor="@color/black"
+        android:layout_gravity="center"
+        android:text=" "/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:textSize="15sp"
+        android:textColor="@color/black"
+        android:layout_marginBottom="10dp"
+        android:layout_gravity="center"
+        android:layout_marginEnd="10dp"
+        android:text="Kontak Saya"/>
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+        <TableRow>
+            <ImageView
+                android:id="@+id/ivWa"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_weight="1"
+                android:src="@drawable/logo_wa"
+                android:contentDescription="sample"
+                />
+            <ImageView
+                android:id="@+id/ivInsta"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginEnd="10dp"
+                android:layout_weight="1"
+                android:src="@drawable/logo_insta"
+                android:contentDescription="sample" />
+            <ImageView
+                android:id="@+id/ivGmail"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginEnd="10dp"
+                android:layout_weight="1"
+                android:src="@drawable/logo_gmail"
+                android:contentDescription="sample" />
+        </TableRow>
+    </TableLayout>
+
+    <TextView
+        android:id="@+id/tvWa"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="WhatsApp: +6285242020271"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="5dp"
+        android:visibility="gone"
+        android:textSize="12sp"/>
+    <TextView
+        android:id="@+id/tvInstagram"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Instagram: @mhmmdfdhilwhydi"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="5dp"
+        android:visibility="gone"
+        android:textSize="12sp"/>
+    <TextView
+        android:id="@+id/tvGmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Gmail: fadhilwahyudi2110@gmail.com"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="20dp"
+        android:layout_marginStart="5dp"
+        android:visibility="gone"
+        android:textSize="12sp"/>
+
+</LinearLayout>

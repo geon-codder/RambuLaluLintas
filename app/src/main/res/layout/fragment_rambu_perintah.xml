@@ -1,14 +1,974 @@
 <?xml version="1.0" encoding="utf-8"?>
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
     tools:context=".rambu.RambuPerintahFragment">
 
-    <!-- TODO: Update blank fragment layout -->
-    <TextView
+    <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="@string/hello_blank_fragment" />
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
 
-</FrameLayout>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Piktogram Rambu Perintah"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="20dp"
+            android:textSize="15sp"
+            android:textStyle="bold"/>
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TableRow>
+                <ImageView
+                    android:id="@+id/i7a"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="10dp"
+                    android:layout_weight="1"
+                    android:src="@drawable/i7a"
+                    android:contentDescription="sample"
+                    />
+                <ImageView
+                    android:id="@+id/i7b"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="10dp"
+                    android:layout_weight="1"
+                    android:src="@drawable/i7b"
+                    android:contentDescription="sample" />
+                <ImageView
+                    android:id="@+id/i7c"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="10dp"
+                    android:layout_weight="1"
+                    android:src="@drawable/i7c"
+                    android:contentDescription="sample" />
+            </TableRow>
+
+            <TextView
+                android:id="@+id/tvi7a"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/I_7a"
+                android:layout_marginTop="10dp"
+                android:layout_marginStart="5dp"
+                android:visibility="gone"
+                android:textSize="12sp"/>
+            <TextView
+                android:id="@+id/tvi7b"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/I_7b"
+                android:layout_marginTop="10dp"
+                android:layout_marginStart="5dp"
+                android:visibility="gone"
+                android:textSize="12sp"/>
+            <TextView
+                android:id="@+id/tvi7c"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/I_7c"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="20dp"
+                android:layout_marginStart="5dp"
+                android:visibility="gone"
+                android:textSize="12sp"/>
+
+            <TableRow>
+                <ImageView
+                    android:id="@+id/i7d"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="10dp"
+                    android:layout_weight="1"
+                    android:src="@drawable/i7d"
+                    android:contentDescription="sample"
+                    />
+                <ImageView
+                    android:id="@+id/i7e"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="10dp"
+                    android:layout_weight="1"
+                    android:src="@drawable/i7e"
+                    android:contentDescription="sample" />
+                <ImageView
+                    android:id="@+id/i7f"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="10dp"
+                    android:layout_weight="1"
+                    android:src="@drawable/i7f"
+                    android:contentDescription="sample" />
+            </TableRow>
+
+            <TextView
+                android:id="@+id/tvi7d"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/I_7d"
+                android:layout_marginTop="10dp"
+                android:layout_marginStart="5dp"
+                android:visibility="gone"
+                android:textSize="12sp"/>
+            <TextView
+                android:id="@+id/tvi7e"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/I_7e"
+                android:layout_marginTop="10dp"
+                android:layout_marginStart="5dp"
+                android:visibility="gone"
+                android:textSize="12sp"/>
+            <TextView
+                android:id="@+id/tvi7f"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/I_7f"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="20dp"
+                android:layout_marginStart="5dp"
+                android:visibility="gone"
+                android:textSize="12sp"/>
+
+            <TableRow>
+
+                <ImageView
+                    android:id="@+id/i7g"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="10dp"
+                    android:layout_weight="1"
+                    android:contentDescription="sample"
+                    android:src="@drawable/i7g" />
+
+                <ImageView
+                    android:id="@+id/i7h"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="10dp"
+                    android:layout_weight="1"
+                    android:src="@drawable/i7h"
+                    android:contentDescription="sample" />
+                <ImageView
+                    android:id="@+id/i7i"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="10dp"
+                    android:layout_weight="1"
+                    android:src="@drawable/i7i"
+                    android:contentDescription="sample" />
+            </TableRow>
+
+            <TextView
+                android:id="@+id/tvi7g"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/I_7g"
+                android:layout_marginTop="10dp"
+                android:layout_marginStart="5dp"
+                android:visibility="gone"
+                android:textSize="12sp"/>
+            <TextView
+                android:id="@+id/tvi7h"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/I_7h"
+                android:layout_marginTop="10dp"
+                android:layout_marginStart="5dp"
+                android:visibility="gone"
+                android:textSize="12sp"/>
+            <TextView
+                android:id="@+id/tvi7i"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/I_7i"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="20dp"
+                android:layout_marginStart="5dp"
+                android:visibility="gone"
+                android:textSize="12sp"/>
+
+            <TableRow>
+                <ImageView
+                    android:id="@+id/i7j"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="10dp"
+                    android:layout_weight="1"
+                    android:src="@drawable/i7j"
+                    android:contentDescription="sample"
+                    />
+                <ImageView
+                    android:id="@+id/i7k"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="10dp"
+                    android:layout_weight="1"
+                    android:src="@drawable/i7k"
+                    android:contentDescription="sample" />
+                <ImageView
+                    android:id="@+id/i7l"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="10dp"
+                    android:layout_weight="1"
+                    android:src="@drawable/i7l"
+                    android:contentDescription="sample" />
+            </TableRow>
+
+            <TextView
+                android:id="@+id/tvi7j"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/I_7j"
+                android:layout_marginTop="10dp"
+                android:layout_marginStart="5dp"
+                android:visibility="gone"
+                android:textSize="12sp"/>
+            <TextView
+                android:id="@+id/tvi7k"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/I_7k"
+                android:layout_marginTop="10dp"
+                android:layout_marginStart="5dp"
+                android:visibility="gone"
+                android:textSize="12sp"/>
+            <TextView
+                android:id="@+id/tvi7l"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/I_7l"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="20dp"
+                android:layout_marginStart="5dp"
+                android:visibility="gone"
+                android:textSize="12sp"/>
+
+            <TableRow>
+                <ImageView
+                    android:id="@+id/i7m"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="10dp"
+                    android:layout_weight="1"
+                    android:src="@drawable/i7m"
+                    android:contentDescription="sample"
+                    />
+                <ImageView
+                    android:id="@+id/i7n"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="10dp"
+                    android:layout_weight="1"
+                    android:src="@drawable/i7n"
+                    android:contentDescription="sample" />
+                <ImageView
+                    android:id="@+id/i7o"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="10dp"
+                    android:layout_weight="1"
+                    android:src="@drawable/i7o"
+                    android:contentDescription="sample" />
+            </TableRow>
+
+            <TextView
+                android:id="@+id/tvi7m"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/I_7m"
+                android:layout_marginTop="10dp"
+                android:layout_marginStart="5dp"
+                android:visibility="gone"
+                android:textSize="12sp"/>
+            <TextView
+                android:id="@+id/tvi7n"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/I_7n"
+                android:layout_marginTop="10dp"
+                android:layout_marginStart="5dp"
+                android:visibility="gone"
+                android:textSize="12sp"/>
+            <TextView
+                android:id="@+id/tvi7o"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/I_7o"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="20dp"
+                android:layout_marginStart="5dp"
+                android:visibility="gone"
+                android:textSize="12sp"/>
+            <TableRow>
+                <ImageView
+                    android:id="@+id/i7p"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="10dp"
+                    android:layout_weight="1"
+                    android:src="@drawable/i7p"
+                    android:contentDescription="sample"
+                    />
+                <ImageView
+                    android:id="@+id/i7q"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="10dp"
+                    android:layout_weight="1"
+                    android:src="@drawable/i7q"
+                    android:contentDescription="sample" />
+                <ImageView
+                    android:id="@+id/i7r"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="10dp"
+                    android:layout_weight="1"
+                    android:src="@drawable/i7r"
+                    android:contentDescription="sample" />
+            </TableRow>
+            <TextView
+                android:id="@+id/tvi7p"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/I_7p"
+                android:layout_marginTop="10dp"
+                android:layout_marginStart="5dp"
+                android:visibility="gone"
+                android:textSize="12sp"/>
+            <TextView
+                android:id="@+id/tvi7q"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/I_7q"
+                android:layout_marginTop="10dp"
+                android:layout_marginStart="5dp"
+                android:visibility="gone"
+                android:textSize="12sp"/>
+            <TextView
+                android:id="@+id/tvi7r"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/I_7r"
+                android:layout_marginTop="10dp"
+                android:layout_marginStart="5dp"
+                android:visibility="gone"
+                android:textSize="12sp"/>
+
+        </TableLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Rambu Perintah Mematuhi Arah yang Ditunjuk"
+            android:layout_marginTop="40dp"
+            android:layout_marginBottom="20dp"
+            android:textSize="15sp"
+            android:textStyle="bold"/>
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            >
+            <TableRow>
+                <ImageView
+                    android:id="@+id/iv1a"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="10dp"
+                    android:layout_weight="1"
+                    android:src="@drawable/iv1a"
+                    android:contentDescription="sample"
+                    />
+                <ImageView
+                    android:id="@+id/iv1b"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="10dp"
+                    android:layout_weight="1"
+                    android:src="@drawable/iv1b"
+                    android:contentDescription="sample" />
+                <ImageView
+                    android:id="@+id/iv1c"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="10dp"
+                    android:layout_weight="1"
+                    android:src="@drawable/iv1c"
+                    android:contentDescription="sample" />
+            </TableRow>
+
+            <TextView
+                android:id="@+id/tviv1a"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/IV_1a"
+                android:layout_marginTop="10dp"
+                android:layout_marginStart="5dp"
+                android:visibility="gone"
+                android:textSize="12sp"/>
+            <TextView
+                android:id="@+id/tviv1b"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/IV_1b"
+                android:layout_marginTop="10dp"
+                android:layout_marginStart="5dp"
+                android:visibility="gone"
+                android:textSize="12sp"/>
+            <TextView
+                android:id="@+id/tviv1c"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/IV_1c"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="20dp"
+                android:layout_marginStart="5dp"
+                android:visibility="gone"
+                android:textSize="12sp"/>
+
+            <TableRow>
+                <ImageView
+                    android:id="@+id/iv1d"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="10dp"
+                    android:layout_weight="1"
+                    android:src="@drawable/iv1d"
+                    android:contentDescription="sample"
+                    />
+                <ImageView
+                    android:id="@+id/iv1e"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="10dp"
+                    android:layout_weight="1"
+                    android:src="@drawable/iv1e"
+                    android:contentDescription="sample" />
+                <ImageView
+                    android:id="@+id/iv1f"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="10dp"
+                    android:layout_weight="1"
+                    android:src="@drawable/iv1f"
+                    android:contentDescription="sample" />
+            </TableRow>
+            <TextView
+                android:id="@+id/tviv1d"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/IV_1d"
+                android:layout_marginTop="10dp"
+                android:layout_marginStart="5dp"
+                android:visibility="gone"
+                android:textSize="12sp"/>
+            <TextView
+                android:id="@+id/tviv1e"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/IV_1e"
+                android:layout_marginTop="10dp"
+                android:layout_marginStart="5dp"
+                android:visibility="gone"
+                android:textSize="12sp"/>
+            <TextView
+                android:id="@+id/tviv1f"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/IV_1f"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="20dp"
+                android:layout_marginStart="5dp"
+                android:visibility="gone"
+                android:textSize="12sp"/>
+        </TableLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Rambu Perintah Memilih Salah Satu Arah yang Ditunjuk"
+            android:layout_marginTop="40dp"
+            android:layout_marginBottom="20dp"
+            android:textSize="15sp"
+            android:textStyle="bold"/>
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            >
+            <TableRow>
+                <ImageView
+                    android:id="@+id/iv2a"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="10dp"
+                    android:layout_weight="1"
+                    android:src="@drawable/iv2a"
+                    android:contentDescription="sample"
+                    />
+                <ImageView
+                    android:id="@+id/iv2b"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="10dp"
+                    android:layout_weight="1"
+                    android:src="@drawable/iv2b"
+                    android:contentDescription="sample" />
+            </TableRow>
+
+            <TextView
+                android:id="@+id/tviv2a"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/IV_2a"
+                android:layout_marginTop="10dp"
+                android:layout_marginStart="5dp"
+                android:visibility="gone"
+                android:textSize="12sp"/>
+            <TextView
+                android:id="@+id/tviv2b"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/IV_2b"
+                android:layout_marginTop="10dp"
+                android:layout_marginStart="5dp"
+                android:visibility="gone"
+                android:textSize="12sp"/>
+
+        </TableLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Rambu Perintah Memasuki Bagian Jalan Tertentu"
+            android:layout_marginTop="40dp"
+            android:layout_marginBottom="20dp"
+            android:textSize="15sp"
+            android:textStyle="bold"/>
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            >
+            <TableRow>
+                <ImageView
+                    android:id="@+id/iv3a"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="10dp"
+                    android:layout_weight="1"
+                    android:src="@drawable/iv3a"
+                    android:contentDescription="sample"
+                    />
+                <ImageView
+                    android:id="@+id/iv3b"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="10dp"
+                    android:layout_weight="1"
+                    android:src="@drawable/iv3b"
+                    android:contentDescription="sample" />
+                <ImageView
+                    android:id="@+id/iv3c"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="10dp"
+                    android:layout_weight="1"
+                    android:src="@drawable/iv3c"
+                    android:contentDescription="sample" />
+            </TableRow>
+
+            <TextView
+                android:id="@+id/tviv3a"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/IV_3a"
+                android:layout_marginTop="10dp"
+                android:layout_marginStart="5dp"
+                android:visibility="gone"
+                android:textSize="12sp"/>
+            <TextView
+                android:id="@+id/tviv3b"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/IV_3b"
+                android:layout_marginTop="10dp"
+                android:layout_marginStart="5dp"
+                android:visibility="gone"
+                android:textSize="12sp"/>
+            <TextView
+                android:id="@+id/tviv3c"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/IV_3c"
+                android:layout_marginTop="10dp"
+                android:layout_marginStart="5dp"
+                android:visibility="gone"
+                android:textSize="12sp"/>
+
+        </TableLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Rambu Perintah Batas Minimum Kecepatan"
+            android:layout_marginTop="40dp"
+            android:layout_marginBottom="20dp"
+            android:textSize="15sp"
+            android:textStyle="bold"/>
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            >
+            <TableRow>
+                <ImageView
+                    android:id="@+id/iv4a"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="10dp"
+                    android:layout_weight="1"
+                    android:src="@drawable/iv4a"
+                    android:contentDescription="sample"
+                    />
+            </TableRow>
+
+            <TextView
+                android:id="@+id/tviv4a"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/IV_4a"
+                android:layout_marginTop="10dp"
+                android:layout_marginStart="5dp"
+                android:visibility="gone"
+                android:textSize="12sp"/>
+
+        </TableLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Rambu Perintah Penggunaan Rantai Ban"
+            android:layout_marginTop="40dp"
+            android:layout_marginBottom="20dp"
+            android:textSize="15sp"
+            android:textStyle="bold"/>
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            >
+            <TableRow>
+                <ImageView
+                    android:id="@+id/iv5a"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="10dp"
+                    android:layout_weight="1"
+                    android:src="@drawable/iv5a"
+                    android:contentDescription="sample"
+                    />
+            </TableRow>
+
+            <TextView
+                android:id="@+id/tviv5a"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/IV_5a"
+                android:layout_marginTop="10dp"
+                android:layout_marginStart="5dp"
+                android:visibility="gone"
+                android:textSize="12sp"/>
+
+        </TableLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Perintah Menggunakan Jalur atau Lajur Lalu Lintas Khusus Kendaraan Bermotor"
+            android:layout_marginTop="40dp"
+            android:layout_marginBottom="20dp"
+            android:textSize="15sp"
+            android:textStyle="bold"/>
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            >
+            <TableRow>
+                <ImageView
+                    android:id="@+id/iv6a1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="10dp"
+                    android:layout_weight="1"
+                    android:src="@drawable/iv6a1"
+                    android:contentDescription="sample"
+                    />
+                <ImageView
+                    android:id="@+id/iv6a2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="10dp"
+                    android:layout_weight="1"
+                    android:src="@drawable/iv6a2"
+                    android:contentDescription="sample" />
+                <ImageView
+                    android:id="@+id/iv6a3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="10dp"
+                    android:layout_weight="1"
+                    android:src="@drawable/iv6a3"
+                    android:contentDescription="sample" />
+            </TableRow>
+
+            <TextView
+                android:id="@+id/tviv6a1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/IV_6a_1"
+                android:layout_marginTop="10dp"
+                android:layout_marginStart="5dp"
+                android:visibility="gone"
+                android:textSize="12sp"/>
+            <TextView
+                android:id="@+id/tviv6a2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/IV_6a_2"
+                android:layout_marginTop="10dp"
+                android:layout_marginStart="5dp"
+                android:visibility="gone"
+                android:textSize="12sp"/>
+            <TextView
+                android:id="@+id/tviv6a3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/IV_6a_3"
+                android:layout_marginTop="10dp"
+                android:layout_marginStart="5dp"
+                android:visibility="gone"
+                android:textSize="12sp"/>
+
+        </TableLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Perintah Menggunakan Jalur atau Lajur Lalu Lintas Khusus Kendaraan Tidak Bermotor"
+            android:layout_marginTop="40dp"
+            android:layout_marginBottom="20dp"
+            android:textSize="15sp"
+            android:textStyle="bold"/>
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            >
+            <TableRow>
+                <ImageView
+                    android:id="@+id/iv6b1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="10dp"
+                    android:layout_weight="1"
+                    android:src="@drawable/iv6b1"
+                    android:contentDescription="sample"
+                    />
+                <ImageView
+                    android:id="@+id/iv6b2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="10dp"
+                    android:layout_weight="1"
+                    android:src="@drawable/iv6b2"
+                    android:contentDescription="sample" />
+                <ImageView
+                    android:id="@+id/iv6b3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="10dp"
+                    android:layout_weight="1"
+                    android:src="@drawable/iv6b3"
+                    android:contentDescription="sample" />
+            </TableRow>
+
+            <TextView
+                android:id="@+id/tviv6b1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/IV_6b_1"
+                android:layout_marginTop="10dp"
+                android:layout_marginStart="5dp"
+                android:visibility="gone"
+                android:textSize="12sp"/>
+            <TextView
+                android:id="@+id/tviv6b2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/IV_6b_2"
+                android:layout_marginTop="10dp"
+                android:layout_marginStart="5dp"
+                android:visibility="gone"
+                android:textSize="12sp"/>
+            <TextView
+                android:id="@+id/tviv6b3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/IV_6b_3"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="20dp"
+                android:layout_marginStart="5dp"
+                android:visibility="gone"
+                android:textSize="12sp"/>
+
+            <TableRow>
+                <ImageView
+                    android:id="@+id/iv6b4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="10dp"
+                    android:layout_weight="1"
+                    android:src="@drawable/iv6b4"
+                    android:contentDescription="sample"
+                    />
+                <ImageView
+                    android:id="@+id/iv6b5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="10dp"
+                    android:layout_weight="1"
+                    android:src="@drawable/iv6b5"
+                    android:contentDescription="sample" />
+                <ImageView
+                    android:id="@+id/iv6b6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="10dp"
+                    android:layout_weight="1"
+                    android:src="@drawable/iv6b6"
+                    android:contentDescription="sample" />
+            </TableRow>
+
+            <TextView
+                android:id="@+id/tviv6b4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/IV_6b_4"
+                android:layout_marginTop="10dp"
+                android:layout_marginStart="5dp"
+                android:visibility="gone"
+                android:textSize="12sp"/>
+            <TextView
+                android:id="@+id/tviv6b5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/IV_6b_5"
+                android:layout_marginTop="10dp"
+                android:layout_marginStart="5dp"
+                android:visibility="gone"
+                android:textSize="12sp"/>
+            <TextView
+                android:id="@+id/tviv6b6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/IV_6b_6"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="20dp"
+                android:layout_marginStart="5dp"
+                android:visibility="gone"
+                android:textSize="12sp"/>
+
+            <TableRow>
+                <ImageView
+                    android:id="@+id/iv6b7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="10dp"
+                    android:layout_weight="1"
+                    android:src="@drawable/iv6b7"
+                    android:contentDescription="sample"
+                    />
+            </TableRow>
+
+            <TextView
+                android:id="@+id/tviv6b7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/IV_6b_7"
+                android:layout_marginTop="10dp"
+                android:layout_marginStart="5dp"
+                android:visibility="gone"
+                android:textSize="12sp"/>
+
+        </TableLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Batas Akhir Perintah Tertentu"
+            android:layout_marginTop="40dp"
+            android:layout_marginBottom="20dp"
+            android:textSize="15sp"
+            android:textStyle="bold"/>
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="40dp"
+            >
+            <TableRow>
+                <ImageView
+                    android:id="@+id/iv7a"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="10dp"
+                    android:layout_weight="1"
+                    android:src="@drawable/iv7a"
+                    android:contentDescription="sample"
+                    />
+                <ImageView
+                    android:id="@+id/iv7b"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="10dp"
+                    android:layout_weight="1"
+                    android:src="@drawable/iv7b"
+                    android:contentDescription="sample" />
+            </TableRow>
+
+            <TextView
+                android:id="@+id/tviv7a"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/IV_7a"
+                android:layout_marginTop="10dp"
+                android:layout_marginStart="5dp"
+                android:visibility="gone"
+                android:textSize="12sp"/>
+            <TextView
+                android:id="@+id/tviv7b"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/IV_7b"
+                android:layout_marginTop="10dp"
+                android:layout_marginStart="5dp"
+                android:visibility="gone"
+                android:textSize="12sp"/>
+
+        </TableLayout>
+
+    </LinearLayout>
+
+</androidx.core.widget.NestedScrollView>

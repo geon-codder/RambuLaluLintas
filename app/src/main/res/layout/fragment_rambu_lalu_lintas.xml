@@ -1,14 +1,39 @@
 <?xml version="1.0" encoding="utf-8"?>
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
     tools:context=".rambu.RambuLaluLintasFragment">
 
-    <!-- TODO: Update blank fragment layout -->
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="@string/hello_blank_fragment" />
+    <Button
+        android:id="@+id/btnPeringatan"
+        android:layout_width="190dp"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#EFC049"
+        android:textColor="@color/black"
+        android:text="RAMBU PERINGATAN"/>
+    <Button
+        android:id="@+id/btnPerintah"
+        android:layout_width="190dp"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#1DAFF8"
+        android:textColor="@color/black"
+        android:text="RAMBU PERINTAH"/>
+    <Button
+        android:id="@+id/btnLarangan"
+        android:layout_width="190dp"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#CA2D24"
+        android:textColor="@color/black"
+        android:text="RAMBU LARANGAN"/>
+    <Button
+        android:id="@+id/btnPetunjuk"
+        android:layout_width="190dp"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#4567AE"
+        android:textColor="@color/black"
+        android:text="RAMBU PETUNJUK"/>
 
-</FrameLayout>
+</LinearLayout>

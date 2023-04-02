@@ -6,4 +6,63 @@
     android:layout_height="match_parent"
     tools:context=".aturan.AturanActivity">
 
+
+    <androidx.fragment.app.FragmentContainerView
+        android:id="@+id/nav_host_fragment"
+        android:name="androidx.navigation.fragment.NavHostFragment"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:defaultNavHost="true"
+        app:navGraph="@navigation/aturan" />
+
+
+    <!--    <TextView-->
+<!--        android:id="@+id/tvNamaPasal"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_gravity="center_horizontal"-->
+<!--        android:layout_marginTop="20dp"-->
+<!--        android:text="Belum Ada Pasal yang dipilih" />-->
+
+
+
+<!--    <FrameLayout-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        >-->
+<!--        <ImageView-->
+<!--            android:src="@drawable/shape1"-->
+<!--            android:layout_width="300dp"-->
+<!--            android:layout_height="150dp"-->
+<!--            android:layout_gravity="center_horizontal"-->
+<!--            />-->
+<!--        <TextView-->
+<!--            android:id="@+id/tvIsiPasal"-->
+<!--            android:layout_width="280dp"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:textSize="15sp"-->
+<!--            android:layout_marginTop="20dp"-->
+<!--            android:layout_gravity="center_horizontal"-->
+<!--            android:text="Silakan Memilih pasal untuk ditampilkan" />-->
+
+
+
+<!--    </FrameLayout>-->
+
+
+
+
+
+<!--    <Button-->
+<!--        android:id="@+id/btnPilihPasal"-->
+<!--        android:layout_width="190dp"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:backgroundTint="#EFC049"-->
+<!--        android:textColor="@color/black"-->
+<!--        android:text="Pilih Pasal"/>-->
+
 </androidx.constraintlayout.widget.ConstraintLayout>

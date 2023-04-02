@@ -1,14 +1,1467 @@
 <?xml version="1.0" encoding="utf-8"?>
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
     tools:context=".rambu.RambuLaranganFragment">
 
-    <!-- TODO: Update blank fragment layout -->
-    <TextView
+    <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="@string/hello_blank_fragment" />
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
 
-</FrameLayout>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Piktogram Rambu Larangan"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="20dp"
+            android:textSize="15sp"
+            android:textStyle="bold"/>
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            >
+            <TableRow>
+                <ImageView
+                    android:id="@+id/i4a"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="10dp"
+                    android:layout_weight="1"
+                    android:src="@drawable/i4a"
+                    android:contentDescription="sample"
+                    />
+                <ImageView
+                    android:id="@+id/i4b"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="10dp"
+                    android:layout_weight="1"
+                    android:src="@drawable/i4b"
+                    android:contentDescription="sample" />
+                <ImageView
+                    android:id="@+id/i4c"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="10dp"
+                    android:layout_weight="1"
+                    android:src="@drawable/i4c"
+                    android:contentDescription="sample" />
+            </TableRow>
+
+            <TextView
+                android:id="@+id/tvi4a"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="1. Larangan Berjalan Terus karena Wajib Berhenti Sesaat dan atau Melanjutkan Perjalanan Setelah Dipastikan Selamat dari Konflik Lalu Lintas dari Arah Lainnya"
+                android:layout_marginTop="10dp"
+                android:layout_marginStart="5dp"
+                android:visibility="gone"
+                android:textSize="12sp"/>
+            <TextView
+                android:id="@+id/tvi4b"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="2. Larangan Berjalan Terus Sebelum Melaksanakan; Kegiatan Tertentu, contoh: Larangan Melanjutkan; Perjalanan Sebelum Membayar Tarif Tol"
+                android:layout_marginTop="10dp"
+                android:layout_marginStart="5dp"
+                android:visibility="gone"
+                android:textSize="12sp"/>
+            <TextView
+                android:id="@+id/tvi4c"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="3. Larangan Masuk Bagi Kendaraan Bermotor dan Tidak Bermotor"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="20dp"
+                android:layout_marginStart="5dp"
+                android:visibility="gone"
+                android:textSize="12sp"/>
+
+            <TableRow>
+                <ImageView
+                    android:id="@+id/i4d"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="10dp"
+                    android:layout_weight="1"
+                    android:src="@drawable/i4d"
+                    android:contentDescription="sample"
+                    />
+                <ImageView
+                    android:id="@+id/i4e"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="10dp"
+                    android:layout_weight="1"
+                    android:src="@drawable/i4e"
+                    android:contentDescription="sample" />
+                <ImageView
+                    android:id="@+id/i4f"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="10dp"
+                    android:layout_weight="1"
+                    android:src="@drawable/i4f"
+                    android:contentDescription="sample" />
+            </TableRow>
+
+            <TextView
+                android:id="@+id/tvi4d"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="4. Larangan Masuk bagi Sepeda Motor"
+                android:layout_marginTop="10dp"
+                android:layout_marginStart="5dp"
+                android:visibility="gone"
+                android:textSize="12sp"/>
+            <TextView
+                android:id="@+id/tvi4e"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="5. Larangan Masuk bagi Kendaraan Bermotor Roda Tiga"
+                android:layout_marginTop="10dp"
+                android:layout_marginStart="5dp"
+                android:visibility="gone"
+                android:textSize="12sp"/>
+            <TextView
+                android:id="@+id/tvi4f"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="6. Larangan Masuk bagi Mobil Penumpang Perseorangan"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="20dp"
+                android:layout_marginStart="5dp"
+                android:visibility="gone"
+                android:textSize="12sp"/>
+
+            <TableRow>
+
+                <ImageView
+                    android:id="@+id/i4g"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="10dp"
+                    android:layout_weight="1"
+                    android:contentDescription="sample"
+                    android:src="@drawable/i4g" />
+
+                <ImageView
+                    android:id="@+id/i4h"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="10dp"
+                    android:layout_weight="1"
+                    android:src="@drawable/i4h"
+                    android:contentDescription="sample" />
+                <ImageView
+                    android:id="@+id/i4i"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="10dp"
+                    android:layout_weight="1"
+                    android:src="@drawable/i4i"
+                    android:contentDescription="sample" />
+            </TableRow>
+
+            <TextView
+                android:id="@+id/tvi4g"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="7. Larangan Masuk bagi Mobil Barang"
+                android:layout_marginTop="10dp"
+                android:layout_marginStart="5dp"
+                android:visibility="gone"
+                android:textSize="12sp"/>
+            <TextView
+                android:id="@+id/tvi4h"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="8. Larangan Masuk bagi Kendaraan Bermotor Umum"
+                android:layout_marginTop="10dp"
+                android:layout_marginStart="5dp"
+                android:visibility="gone"
+                android:textSize="12sp"/>
+            <TextView
+                android:id="@+id/tvi4i"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="9. Larangan Masuk bagi Kendaraan Bermotor dengan Kereta Tempel"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="20dp"
+                android:layout_marginStart="5dp"
+                android:visibility="gone"
+                android:textSize="12sp"/>
+
+            <TableRow>
+                <ImageView
+                    android:id="@+id/i4j"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="10dp"
+                    android:layout_weight="1"
+                    android:src="@drawable/i4j"
+                    android:contentDescription="sample"
+                    />
+                <ImageView
+                    android:id="@+id/i4k"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="10dp"
+                    android:layout_weight="1"
+                    android:src="@drawable/i4k"
+                    android:contentDescription="sample" />
+                <ImageView
+                    android:id="@+id/i4l"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="10dp"
+                    android:layout_weight="1"
+                    android:src="@drawable/i4l"
+                    android:contentDescription="sample" />
+            </TableRow>
+
+            <TextView
+                android:id="@+id/tvi4j"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="10. Larangan Masuk bagi Kendaraan Bermotor dengan Berat Keseluruhan Sama atau Lebih dari 5 ton"
+                android:layout_marginTop="10dp"
+                android:layout_marginStart="5dp"
+                android:visibility="gone"
+                android:textSize="12sp"/>
+            <TextView
+                android:id="@+id/tvi4k"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="11. Larangan Masuk bagi Kendaraan Bermotor dengan Beban Sumbu Sama atau Lebih dari 8 ton"
+                android:layout_marginTop="10dp"
+                android:layout_marginStart="5dp"
+                android:visibility="gone"
+                android:textSize="12sp"/>
+            <TextView
+                android:id="@+id/tvi4l"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="12. Larangan Mendekati Kendaraan di Depan dengan Jarak Sama atau Kurang dari ...m"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="20dp"
+                android:layout_marginStart="5dp"
+                android:visibility="gone"
+                android:textSize="12sp"/>
+
+            <TableRow>
+                <ImageView
+                    android:id="@+id/i4m"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="10dp"
+                    android:layout_weight="1"
+                    android:src="@drawable/i4m"
+                    android:contentDescription="sample"
+                    />
+                <ImageView
+                    android:id="@+id/i4n"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="10dp"
+                    android:layout_weight="1"
+                    android:src="@drawable/i4n"
+                    android:contentDescription="sample" />
+            </TableRow>
+            <TextView
+                android:id="@+id/tvi4m"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="13. Larangan Menjalankan Kendaraan dengan Kecepatan Lebih dari 40 km/jam"
+                android:layout_marginTop="10dp"
+                android:layout_marginStart="5dp"
+                android:visibility="gone"
+                android:textSize="12sp"/>
+            <TextView
+                android:id="@+id/tvi4n"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="14. Batas Akhir Seluruh Larangan yang Dinyatakan oleh Satu atau Lebih Rambu Larangan"
+                android:layout_marginTop="10dp"
+                android:layout_marginStart="5dp"
+                android:visibility="gone"
+                android:textSize="12sp"/>
+
+        </TableLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Rambu Larangan Berjalan Terus"
+            android:layout_marginTop="40dp"
+            android:layout_marginBottom="20dp"
+            android:textSize="15sp"
+            android:textStyle="bold"/>
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            >
+            <TableRow>
+                <ImageView
+                    android:id="@+id/iii1a"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="10dp"
+                    android:layout_weight="1"
+                    android:src="@drawable/iii1a"
+                    android:contentDescription="sample"
+                    />
+                <ImageView
+                    android:id="@+id/iii1b"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="10dp"
+                    android:layout_weight="1"
+                    android:src="@drawable/iii1b"
+                    android:contentDescription="sample" />
+                <ImageView
+                    android:id="@+id/iii1c"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="10dp"
+                    android:layout_weight="1"
+                    android:src="@drawable/iii1c"
+                    android:contentDescription="sample" />
+            </TableRow>
+
+            <TextView
+                android:id="@+id/tviii1a"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="1. Larangan Berjalan Terus karena Wajib Berhenti Sesaat dan/ atau Melanjutkan Perjalanan Setelah Dipastikan Selamat dari Konflik Lalu Lintas dari Arah Lainnya"
+                android:layout_marginTop="10dp"
+                android:layout_marginStart="5dp"
+                android:visibility="gone"
+                android:textSize="12sp"/>
+            <TextView
+                android:id="@+id/tviii1b"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="2. Larangan Berjalan Terus karena Wajib Memberi Prioritas Kepada Arus Lalu Lintas dari Arah yang Diberi Prioritas"
+                android:layout_marginTop="10dp"
+                android:layout_marginStart="5dp"
+                android:visibility="gone"
+                android:textSize="12sp"/>
+            <TextView
+                android:id="@+id/tviii1c"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="3. Larangan Berjalan Terus Sebelum Melaksanakan Kegiatan Tertentu, contoh:Larangan Melanjutkan Perjalanan Sebelum Membayar Tarif Tol"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="20dp"
+                android:layout_marginStart="5dp"
+                android:visibility="gone"
+                android:textSize="12sp"/>
+
+            <TableRow>
+                <ImageView
+                    android:id="@+id/iii1d"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="10dp"
+                    android:layout_weight="1"
+                    android:src="@drawable/iii1d"
+                    android:contentDescription="sample"
+                    />
+                <ImageView
+                    android:id="@+id/iii1e"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="10dp"
+                    android:layout_weight="1"
+                    android:src="@drawable/iii1e"
+                    android:contentDescription="sample" />
+                <ImageView
+                    android:id="@+id/iii1f"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="10dp"
+                    android:layout_weight="1"
+                    android:src="@drawable/iii1f"
+                    android:contentDescription="sample" />
+            </TableRow>
+
+            <TextView
+                android:id="@+id/tviii1d"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="4. Larangan Berjalan Teruspada Bagian Jalan Tertentu Sebelum Mendahulukan Arus Lalu Lintas yang Datang dari Arah Berlawanan"
+                android:layout_marginTop="10dp"
+                android:layout_marginStart="5dp"
+                android:visibility="gone"
+                android:textSize="12sp"/>
+            <TextView
+                android:id="@+id/tviii1e"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="5. Larangan Berjalan Terus pada Perlintasan Sebidang Lintasan Kereta Api Jalur Tunggal Sebelum Mendapatkan Kepastian Selamat dari Konflik"
+                android:layout_marginTop="10dp"
+                android:layout_marginStart="5dp"
+                android:visibility="gone"
+                android:textSize="12sp"/>
+            <TextView
+                android:id="@+id/tviii1f"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="6. Larangan Berjalan Terus pada Perlintasan Sebidang Lintasan Kereta Api Jalur Ganda Sebelum Mendapatkan Kepastian Selamat dari Konflik"
+                android:layout_marginTop="10dp"
+                android:layout_marginStart="5dp"
+                android:visibility="gone"
+                android:textSize="12sp"/>
+        </TableLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Larangan Masuk Bagi Kendaraan Bermotor dan Tidak Bermotor"
+            android:layout_marginTop="40dp"
+            android:layout_marginBottom="20dp"
+            android:textSize="15sp"
+            android:textStyle="bold"/>
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            >
+            <TableRow>
+                <ImageView
+                    android:id="@+id/iii2a1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="10dp"
+                    android:layout_weight="1"
+                    android:src="@drawable/iii2a1"
+                    android:contentDescription="sample"
+                    />
+                <ImageView
+                    android:id="@+id/iii2a2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="10dp"
+                    android:layout_weight="1"
+                    android:src="@drawable/iii2a2"
+                    android:contentDescription="sample" />
+            </TableRow>
+            <TextView
+                android:id="@+id/tviii2a1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="4. Larangan Berjalan Teruspada Bagian Jalan Tertentu Sebelum Mendahulukan Arus Lalu Lintas yang Datang dari Arah Berlawanan"
+                android:layout_marginTop="10dp"
+                android:layout_marginStart="5dp"
+                android:visibility="gone"
+                android:textSize="12sp"/>
+            <TextView
+                android:id="@+id/tviii2a2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="5. Larangan Berjalan Terus pada Perlintasan Sebidang Lintasan Kereta Api Jalur Tunggal Sebelum Mendapatkan Kepastian Selamat dari Konflik"
+                android:layout_marginTop="10dp"
+                android:layout_marginStart="5dp"
+                android:visibility="gone"
+                android:textSize="12sp"/>
+
+
+        </TableLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Larangan Masuk Bagi Kendaraan Bermotor Jenis Tertentu"
+            android:layout_marginTop="40dp"
+            android:layout_marginBottom="20dp"
+            android:textSize="15sp"
+            android:textStyle="bold"/>
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            >
+            <TableRow>
+                <ImageView
+                    android:id="@+id/iii2b1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="10dp"
+                    android:layout_weight="1"
+                    android:src="@drawable/iii2b1"
+                    android:contentDescription="sample"
+                    />
+                <ImageView
+                    android:id="@+id/iii2b2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="10dp"
+                    android:layout_weight="1"
+                    android:src="@drawable/iii2b2"
+                    android:contentDescription="sample" />
+                <ImageView
+                    android:id="@+id/iii2b3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="10dp"
+                    android:layout_weight="1"
+                    android:src="@drawable/iii2b3"
+                    android:contentDescription="sample" />
+            </TableRow>
+
+            <TextView
+                android:id="@+id/tviii2b1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="1. Larangan Masuk bagi Sepeda Motor"
+                android:layout_marginTop="10dp"
+                android:layout_marginStart="5dp"
+                android:visibility="gone"
+                android:textSize="12sp"/>
+            <TextView
+                android:id="@+id/tviii2b2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="2. Larangan Masuk bagi Kendaraan Bermotor Roda Tiga"
+                android:layout_marginTop="10dp"
+                android:layout_marginStart="5dp"
+                android:visibility="gone"
+                android:textSize="12sp"/>
+            <TextView
+                android:id="@+id/tviii2b3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="3. Larangan Masuk bagi Mobil Penumpang"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="20dp"
+                android:layout_marginStart="5dp"
+                android:visibility="gone"
+                android:textSize="12sp"/>
+
+            <TableRow>
+                <ImageView
+                    android:id="@+id/iii2b4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="10dp"
+                    android:layout_weight="1"
+                    android:src="@drawable/iii2b4"
+                    android:contentDescription="sample"
+                    />
+                <ImageView
+                    android:id="@+id/iii2b5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="10dp"
+                    android:layout_weight="1"
+                    android:src="@drawable/iii2b5"
+                    android:contentDescription="sample" />
+                <ImageView
+                    android:id="@+id/iii2b6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="10dp"
+                    android:layout_weight="1"
+                    android:src="@drawable/iii2b6"
+                    android:contentDescription="sample" />
+            </TableRow>
+
+            <TextView
+                android:id="@+id/tviii2b4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="4. Larangan Masuk bagi Mobil Barang"
+                android:layout_marginTop="10dp"
+                android:layout_marginStart="5dp"
+                android:visibility="gone"
+                android:textSize="12sp"/>
+            <TextView
+                android:id="@+id/tviii2b5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="5. Larangan Masuk bagi Mobil Bus"
+                android:layout_marginTop="10dp"
+                android:layout_marginStart="5dp"
+                android:visibility="gone"
+                android:textSize="12sp"/>
+            <TextView
+                android:id="@+id/tviii2b6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="6. Larangan Masuk bagi Kendaraan Khusus"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="20dp"
+                android:layout_marginStart="5dp"
+                android:visibility="gone"
+                android:textSize="12sp"/>
+
+
+            <TableRow>
+
+                <ImageView
+                    android:id="@+id/iii2b7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="10dp"
+                    android:layout_weight="1"
+                    android:contentDescription="sample"
+                    android:src="@drawable/iii2b7" />
+
+                <ImageView
+                    android:id="@+id/iii2b8"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="10dp"
+                    android:layout_weight="1"
+                    android:src="@drawable/iii2b8"
+                    android:contentDescription="sample" />
+                <ImageView
+                    android:id="@+id/iii2b9"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="10dp"
+                    android:layout_weight="1"
+                    android:src="@drawable/iii2b9"
+                    android:contentDescription="sample" />
+            </TableRow>
+
+            <TextView
+                android:id="@+id/tviii2b7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="7. Larangan Masuk bagi Kendaraan Bermotor dengan Kereta Tempel"
+                android:layout_marginTop="10dp"
+                android:layout_marginStart="5dp"
+                android:visibility="gone"
+                android:textSize="12sp"/>
+            <TextView
+                android:id="@+id/tviii2b8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="8. Larangan Masuk bagi Kendaraan Bermotor dengan Kereta Gandeng"
+                android:layout_marginTop="10dp"
+                android:layout_marginStart="5dp"
+                android:visibility="gone"
+                android:textSize="12sp"/>
+            <TextView
+                android:id="@+id/tviii2b9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="9. Larangan Masuk bagi Sepeda Motor dan Mobil Penumpang"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="20dp"
+                android:layout_marginStart="5dp"
+                android:visibility="gone"
+                android:textSize="12sp"/>
+
+
+            <TableRow>
+                <ImageView
+                    android:id="@+id/iii2b10"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="10dp"
+                    android:layout_weight="1"
+                    android:src="@drawable/iii2b10"
+                    android:contentDescription="sample"
+                    />
+                <ImageView
+                    android:id="@+id/iii2b11"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="10dp"
+                    android:layout_weight="1"
+                    android:src="@drawable/iii2b11"
+                    android:contentDescription="sample" />
+                <ImageView
+                    android:id="@+id/iii2b12"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="10dp"
+                    android:layout_weight="1"
+                    android:src="@drawable/iii2b12"
+                    android:contentDescription="sample" />
+            </TableRow>
+
+            <TextView
+                android:id="@+id/tviii2b10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="10. Larangan Masuk bagi Mobil Penumpang Perseorangan dan Mobil Barang"
+                android:layout_marginTop="10dp"
+                android:layout_marginStart="5dp"
+                android:visibility="gone"
+                android:textSize="12sp"/>
+            <TextView
+                android:id="@+id/tviii2b11"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="11. Larangan Masuk bagi Mobil Barang dan Kendaraan Bermotor Umum"
+                android:layout_marginTop="10dp"
+                android:layout_marginStart="5dp"
+                android:visibility="gone"
+                android:textSize="12sp"/>
+            <TextView
+                android:id="@+id/tviii2b12"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="12. Larangan Masuk bagi Sepeda Motor, Mobil Penumpang Perseorangan dan Mobil Barang"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="20dp"
+                android:layout_marginStart="5dp"
+                android:visibility="gone"
+                android:textSize="12sp"/>
+
+
+            <TableRow>
+                <ImageView
+                    android:id="@+id/iii2b13"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="10dp"
+                    android:layout_weight="1"
+                    android:src="@drawable/iii2b13"
+                    android:contentDescription="sample"
+                    />
+            </TableRow>
+            <TextView
+                android:id="@+id/tviii2b13"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="13. Larangan Masuk bagi Mobil Penumpang Perseorangan, Mobil Barang dan Kendaraan Bermotor Umum"
+                android:layout_marginTop="10dp"
+                android:layout_marginStart="5dp"
+                android:visibility="gone"
+                android:textSize="12sp"/>
+        </TableLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Larangan Masuk Bagi Kendaraan Tidak Bermotor Jenis Tertentu"
+            android:layout_marginTop="40dp"
+            android:layout_marginBottom="20dp"
+            android:textSize="15sp"
+            android:textStyle="bold"/>
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            >
+            <TableRow>
+                <ImageView
+                    android:id="@+id/iii2c1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="10dp"
+                    android:layout_weight="1"
+                    android:src="@drawable/iii2c1"
+                    android:contentDescription="sample"
+                    />
+                <ImageView
+                    android:id="@+id/iii2c2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="10dp"
+                    android:layout_weight="1"
+                    android:src="@drawable/iii2c2"
+                    android:contentDescription="sample" />
+                <ImageView
+                    android:id="@+id/iii2c3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="10dp"
+                    android:layout_weight="1"
+                    android:src="@drawable/iii2c3"
+                    android:contentDescription="sample" />
+            </TableRow>
+
+            <TextView
+                android:id="@+id/tviii2c1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="1. Larangan Masuk bagi Pejalan Kaki"
+                android:layout_marginTop="10dp"
+                android:layout_marginStart="5dp"
+                android:visibility="gone"
+                android:textSize="12sp"/>
+            <TextView
+                android:id="@+id/tviii2c2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="2. Larangan Masuk bagi Gerobak Dorong dan Sejenisnya"
+                android:layout_marginTop="10dp"
+                android:layout_marginStart="5dp"
+                android:visibility="gone"
+                android:textSize="12sp"/>
+            <TextView
+                android:id="@+id/tviii2c3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="3. Larangan Masuk bagi Sepeda"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="20dp"
+                android:layout_marginStart="5dp"
+                android:visibility="gone"
+                android:textSize="12sp"/>
+
+            <TableRow>
+                <ImageView
+                    android:id="@+id/iii2c4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="10dp"
+                    android:layout_weight="1"
+                    android:src="@drawable/iii2c4"
+                    android:contentDescription="sample"
+                    />
+                <ImageView
+                    android:id="@+id/iii2c5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="10dp"
+                    android:layout_weight="1"
+                    android:src="@drawable/iii2c5"
+                    android:contentDescription="sample" />
+                <ImageView
+                    android:id="@+id/iii2c6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="10dp"
+                    android:layout_weight="1"
+                    android:src="@drawable/iii2c6"
+                    android:contentDescription="sample" />
+            </TableRow>
+
+            <TextView
+                android:id="@+id/tviii2c4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="4. Larangan Masuk bagi Becak"
+                android:layout_marginTop="10dp"
+                android:layout_marginStart="5dp"
+                android:visibility="gone"
+                android:textSize="12sp"/>
+            <TextView
+                android:id="@+id/tviii2c5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="5. Larangan Masuk bagi Pedati"
+                android:layout_marginTop="10dp"
+                android:layout_marginStart="5dp"
+                android:visibility="gone"
+                android:textSize="12sp"/>
+            <TextView
+                android:id="@+id/tviii2c6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="6. Larangan Masuk bagi Delman/Dokar"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="20dp"
+                android:layout_marginStart="5dp"
+                android:visibility="gone"
+                android:textSize="12sp"/>
+
+            <TableRow>
+
+                <ImageView
+                    android:id="@+id/iii2c7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="10dp"
+                    android:layout_weight="1"
+                    android:contentDescription="sample"
+                    android:src="@drawable/iii2c7" />
+
+                <ImageView
+                    android:id="@+id/iii2c8"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="10dp"
+                    android:layout_weight="1"
+                    android:src="@drawable/iii2c8"
+                    android:contentDescription="sample" />
+                <ImageView
+                    android:id="@+id/iii2c9"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="10dp"
+                    android:layout_weight="1"
+                    android:src="@drawable/iii2c9"
+                    android:contentDescription="sample" />
+            </TableRow>
+
+            <TextView
+                android:id="@+id/tviii2c7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="7. Larangan Masuk bagi Sepeda dan Becak"
+                android:layout_marginTop="10dp"
+                android:layout_marginStart="5dp"
+                android:visibility="gone"
+                android:textSize="12sp"/>
+            <TextView
+                android:id="@+id/tviii2c8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="8. Larangan Masuk bagi Delman dan Pedati"
+                android:layout_marginTop="10dp"
+                android:layout_marginStart="5dp"
+                android:visibility="gone"
+                android:textSize="12sp"/>
+            <TextView
+                android:id="@+id/tviii2c9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="9. Larangan Masuk bagi Semua Jenis Kendaraan Tidak Bermotor"
+                android:layout_marginTop="10dp"
+                android:layout_marginStart="5dp"
+                android:visibility="gone"
+                android:textSize="12sp"/>
+
+        </TableLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Larangan Masuk Bagi Kendaraan dengan Berat dan Dimensi Tertentu"
+            android:layout_marginTop="40dp"
+            android:layout_marginBottom="20dp"
+            android:textSize="15sp"
+            android:textStyle="bold"/>
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            >
+            <TableRow>
+                <ImageView
+                    android:id="@+id/iii2d1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="10dp"
+                    android:layout_weight="1"
+                    android:src="@drawable/iii2d1"
+                    android:contentDescription="sample"
+                    />
+                <ImageView
+                    android:id="@+id/iii2d2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="10dp"
+                    android:layout_weight="1"
+                    android:src="@drawable/iii2d2"
+                    android:contentDescription="sample" />
+                <ImageView
+                    android:id="@+id/iii2d3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="10dp"
+                    android:layout_weight="1"
+                    android:src="@drawable/iii2d3"
+                    android:contentDescription="sample" />
+            </TableRow>
+
+            <TextView
+                android:id="@+id/tviii2d1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="1. Larangan Masuk bagi Kendaraan Bermotor dengan Panjang Lebih dari ...meter"
+                android:layout_marginTop="10dp"
+                android:layout_marginStart="5dp"
+                android:visibility="gone"
+                android:textSize="12sp"/>
+            <TextView
+                android:id="@+id/tviii2d2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="2. Larangan Masuk bagi Kendaraan Bermotor dengan Tinggi Lebih dari ...meter"
+                android:layout_marginTop="10dp"
+                android:layout_marginStart="5dp"
+                android:visibility="gone"
+                android:textSize="12sp"/>
+            <TextView
+                android:id="@+id/tviii2d3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="3. Larangan Masuk bagi Kendaraan Bermotor dengan Lebar Lebih dari ...meter"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="20dp"
+                android:layout_marginStart="5dp"
+                android:visibility="gone"
+                android:textSize="12sp"/>
+
+            <TableRow>
+                <ImageView
+                    android:id="@+id/iii2d4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="10dp"
+                    android:layout_weight="1"
+                    android:src="@drawable/iii2d4"
+                    android:contentDescription="sample"
+                    />
+                <ImageView
+                    android:id="@+id/iii2d5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="10dp"
+                    android:layout_weight="1"
+                    android:src="@drawable/iii2d5"
+                    android:contentDescription="sample" />
+                <ImageView
+                    android:id="@+id/iii2d6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="10dp"
+                    android:layout_weight="1"
+                    android:src="@drawable/iii2d6"
+                    android:contentDescription="sample" />
+            </TableRow>
+
+            <TextView
+                android:id="@+id/tviii2d4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="4. Larangan Masuk bagi Kendaraan Tidak Bermotor dengan Panjang Lebih dari ...meter"
+                android:layout_marginTop="10dp"
+                android:layout_marginStart="5dp"
+                android:visibility="gone"
+                android:textSize="12sp"/>
+            <TextView
+                android:id="@+id/tviii2d5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="5. Larangan Masuk bagi Kendaraan Bermotor dengan Jumlah Berat Yang Diizinkan (JBI) Sama atau Lebih dari 5 ton"
+                android:layout_marginTop="10dp"
+                android:layout_marginStart="5dp"
+                android:visibility="gone"
+                android:textSize="12sp"/>
+            <TextView
+                android:id="@+id/tviii2d6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="6. Larangan Masuk bagi Kendaraan Bermotor Roda Tunggal dengan Muatan Sumbu Terberat (MST) Sama atau Lebih dari 8 ton"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="20dp"
+                android:layout_marginStart="5dp"
+                android:visibility="gone"
+                android:textSize="12sp"/>
+
+            <TableRow>
+
+                <ImageView
+                    android:id="@+id/iii2d7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="10dp"
+                    android:layout_weight="1"
+                    android:contentDescription="sample"
+                    android:src="@drawable/iii2d7" />
+
+                <ImageView
+                    android:id="@+id/iii2d8"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="10dp"
+                    android:layout_weight="1"
+                    android:src="@drawable/iii2d8"
+                    android:contentDescription="sample" />
+                <ImageView
+                    android:id="@+id/iii2d9"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="10dp"
+                    android:layout_weight="1"
+                    android:src="@drawable/iii2d9"
+                    android:contentDescription="sample" />
+            </TableRow>
+
+            <TextView
+                android:id="@+id/tviii2d7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="7. Larangan Masuk bagi Kendaraan Bermotor Roda Ganda atau Lebih dengan Muatan Sumbu Terberat (MST) Sama atau Lebih dari 8 ton"
+                android:layout_marginTop="10dp"
+                android:layout_marginStart="5dp"
+                android:visibility="gone"
+                android:textSize="12sp"/>
+            <TextView
+                android:id="@+id/tviii2d8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="8. Larangan Masuk bagi Kendaraan Bermotor dengan Roda Tunggal pada Ujung Sumbu dengan Berat Muatan Sama atau Lebih dari 8 ton"
+                android:layout_marginTop="10dp"
+                android:layout_marginStart="5dp"
+                android:visibility="gone"
+                android:textSize="12sp"/>
+            <TextView
+                android:id="@+id/tviii2d9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="9. Larangan Masuk bagi Kendaraan Bermotor dengan Roda Ganda atau Lebih pada Ujung Sumbu dengan Berat Muatan Sama atau Lebih dari 8 ton"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="20dp"
+                android:layout_marginStart="5dp"
+                android:visibility="gone"
+                android:textSize="12sp"/>
+
+            <TableRow>
+                <ImageView
+                    android:id="@+id/iii2d10"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="10dp"
+                    android:layout_weight="1"
+                    android:src="@drawable/iii2d10"
+                    android:contentDescription="sample"
+                    />
+                <ImageView
+                    android:id="@+id/iii2d11"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="10dp"
+                    android:layout_weight="1"
+                    android:src="@drawable/iii2d11"
+                    android:contentDescription="sample" />
+                <ImageView
+                    android:id="@+id/iii2d12"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="10dp"
+                    android:layout_weight="1"
+                    android:src="@drawable/iii2d12"
+                    android:contentDescription="sample" />
+            </TableRow>
+
+            <TextView
+                android:id="@+id/tviii2d10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text= "@string/iii_2d_10"
+                android:layout_marginTop="10dp"
+                android:layout_marginStart="5dp"
+                android:visibility="gone"
+                android:textSize="12sp"/>
+            <TextView
+                android:id="@+id/tviii2d11"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/iii_2d_11"
+                android:layout_marginTop="10dp"
+                android:layout_marginStart="5dp"
+                android:visibility="gone"
+                android:textSize="12sp"/>
+            <TextView
+                android:id="@+id/tviii2d12"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/iii_2d_12"
+                android:layout_marginTop="10dp"
+                android:layout_marginStart="5dp"
+                android:visibility="gone"
+                android:textSize="12sp"/>
+
+        </TableLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Rambu Larangan Parkir dan Berhenti "
+            android:layout_marginTop="40dp"
+            android:layout_marginBottom="20dp"
+            android:textSize="15sp"
+            android:textStyle="bold"/>
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            >
+            <TableRow>
+                <ImageView
+                    android:id="@+id/iii3a"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="10dp"
+                    android:layout_weight="1"
+                    android:src="@drawable/iii3a"
+                    android:contentDescription="sample"
+                    />
+                <ImageView
+                    android:id="@+id/iii3b"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="10dp"
+                    android:layout_weight="1"
+                    android:src="@drawable/iii3b"
+                    android:contentDescription="sample" />
+            </TableRow>
+            <TextView
+                android:id="@+id/tviii3a"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/III_3a"
+                android:layout_marginTop="10dp"
+                android:layout_marginStart="5dp"
+                android:visibility="gone"
+                android:textSize="12sp"/>
+            <TextView
+                android:id="@+id/tviii3b"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/III_3b"
+                android:layout_marginTop="10dp"
+                android:layout_marginStart="5dp"
+                android:visibility="gone"
+                android:textSize="12sp"/>
+
+        </TableLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Rambu Larangan Pergerakan Lalu Lintas Tertentu"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="20dp"
+            android:textSize="15sp"
+            android:textStyle="bold"/>
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            >
+            <TableRow>
+                <ImageView
+                    android:id="@+id/iii4a"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="10dp"
+                    android:layout_weight="1"
+                    android:src="@drawable/iii4a"
+                    android:contentDescription="sample"
+                    />
+                <ImageView
+                    android:id="@+id/iii4b"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="10dp"
+                    android:layout_weight="1"
+                    android:src="@drawable/iii4b"
+                    android:contentDescription="sample" />
+                <ImageView
+                    android:id="@+id/iii4c"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="10dp"
+                    android:layout_weight="1"
+                    android:src="@drawable/iii4c"
+                    android:contentDescription="sample" />
+            </TableRow>
+
+            <TextView
+                android:id="@+id/tviii4a"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/III_4a"
+                android:layout_marginTop="10dp"
+                android:layout_marginStart="5dp"
+                android:visibility="gone"
+                android:textSize="12sp"/>
+            <TextView
+                android:id="@+id/tviii4b"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/III_4b"
+                android:layout_marginTop="10dp"
+                android:layout_marginStart="5dp"
+                android:visibility="gone"
+                android:textSize="12sp"/>
+            <TextView
+                android:id="@+id/tviii4c"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/III_4c"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="20dp"
+                android:layout_marginStart="5dp"
+                android:visibility="gone"
+                android:textSize="12sp"/>
+
+            <TableRow>
+                <ImageView
+                    android:id="@+id/iii4d"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="10dp"
+                    android:layout_weight="1"
+                    android:src="@drawable/iii4d"
+                    android:contentDescription="sample"
+                    />
+                <ImageView
+                    android:id="@+id/iii4e"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="10dp"
+                    android:layout_weight="1"
+                    android:src="@drawable/iii4e"
+                    android:contentDescription="sample" />
+                <ImageView
+                    android:id="@+id/iii4f"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="10dp"
+                    android:layout_weight="1"
+                    android:src="@drawable/iii4f"
+                    android:contentDescription="sample" />
+            </TableRow>
+
+            <TextView
+                android:id="@+id/tviii4d"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/III_4d"
+                android:layout_marginTop="10dp"
+                android:layout_marginStart="5dp"
+                android:visibility="gone"
+                android:textSize="12sp"/>
+            <TextView
+                android:id="@+id/tviii4e"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/III_4e"
+                android:layout_marginTop="10dp"
+                android:layout_marginStart="5dp"
+                android:visibility="gone"
+                android:textSize="12sp"/>
+            <TextView
+                android:id="@+id/tviii4f"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/III_4f"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="20dp"
+                android:layout_marginStart="5dp"
+                android:visibility="gone"
+                android:textSize="12sp"/>
+
+            <TableRow>
+
+                <ImageView
+                    android:id="@+id/iii4g"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="10dp"
+                    android:layout_weight="1"
+                    android:contentDescription="sample"
+                    android:src="@drawable/iii4g" />
+
+                <ImageView
+                    android:id="@+id/iii4h"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="10dp"
+                    android:layout_weight="1"
+                    android:src="@drawable/iii4h"
+                    android:contentDescription="sample" />
+            </TableRow>
+            <TextView
+                android:id="@+id/tviii4g"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/III_4g"
+                android:layout_marginTop="10dp"
+                android:layout_marginStart="5dp"
+                android:visibility="gone"
+                android:textSize="12sp"/>
+            <TextView
+                android:id="@+id/tviii4h"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/III_4h"
+                android:layout_marginTop="10dp"
+                android:layout_marginStart="5dp"
+                android:visibility="gone"
+                android:textSize="12sp"/>
+        </TableLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Rambu Larangan Membunyikan Isyarat Suara "
+            android:layout_marginTop="40dp"
+            android:layout_marginBottom="20dp"
+            android:textSize="15sp"
+            android:textStyle="bold"/>
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            >
+            <TableRow>
+                <ImageView
+                    android:id="@+id/iii5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="10dp"
+                    android:layout_weight="1"
+                    android:src="@drawable/iii5"
+                    android:contentDescription="sample"
+                    />
+            </TableRow>
+            <TextView
+                android:id="@+id/tviii5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/III_5"
+                android:layout_marginTop="10dp"
+                android:layout_marginStart="5dp"
+                android:visibility="gone"
+                android:textSize="12sp"/>
+        </TableLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Rambu Larangan dengan Kata-kata"
+            android:layout_marginTop="40dp"
+            android:layout_marginBottom="20dp"
+            android:textSize="15sp"
+            android:textStyle="bold"/>
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="40dp"
+            >
+            <TableRow>
+                <ImageView
+                    android:id="@+id/iii6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="10dp"
+                    android:layout_weight="1"
+                    android:src="@drawable/iii6"
+                    android:contentDescription="sample"
+                    />
+            </TableRow>
+            <TextView
+                android:id="@+id/tviii6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/III_6"
+                android:layout_marginTop="10dp"
+                android:layout_marginStart="5dp"
+                android:visibility="gone"
+                android:textSize="12sp"/>
+        </TableLayout>
+
+    </LinearLayout>
+
+</androidx.core.widget.NestedScrollView>

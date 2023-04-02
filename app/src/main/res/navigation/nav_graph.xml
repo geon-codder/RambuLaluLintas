@@ -3,25 +3,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/nav_graph"
-    app:startDestination="@id/aturanBerkendaraFragment2">
-    <fragment
-        android:id="@+id/aturanBerkendaraFragment2"
-        android:name="com.geco.rambulalulintas.aturan.AturanBerkendaraFragment"
-        android:label="fragment_aturan_berkendara"
-        tools:layout="@layout/fragment_aturan_berkendara" >
-        <action
-            android:id="@+id/action_aturanBerkendaraFragment2_to_rambuPeringatanFragment"
-            app:destination="@id/rambuPeringatanFragment" />
-        <action
-            android:id="@+id/action_aturanBerkendaraFragment2_to_rambuPerintahFragment"
-            app:destination="@id/rambuPerintahFragment" />
-        <action
-            android:id="@+id/action_aturanBerkendaraFragment2_to_rambuLaranganFragment"
-            app:destination="@id/rambuLaranganFragment" />
-        <action
-            android:id="@+id/action_aturanBerkendaraFragment2_to_rambuPetunjukFragment"
-            app:destination="@id/rambuPetunjukFragment" />
-    </fragment>
+    app:startDestination="@id/rambuLaluLintasFragment">
     <fragment
         android:id="@+id/rambuPeringatanFragment"
         android:name="com.geco.rambulalulintas.rambu.RambuPeringatanFragment"
@@ -42,4 +24,22 @@
         android:name="com.geco.rambulalulintas.rambu.RambuPetunjukFragment"
         android:label="fragment_rambu_petunjuk"
         tools:layout="@layout/fragment_rambu_petunjuk" />
+    <fragment
+        android:id="@+id/rambuLaluLintasFragment"
+        android:name="com.geco.rambulalulintas.rambu.RambuLaluLintasFragment"
+        android:label="fragment_rambu_lalu_lintas"
+        tools:layout="@layout/fragment_rambu_lalu_lintas" >
+        <action
+            android:id="@+id/action_rambuLaluLintasFragment_to_rambuPeringatanFragment"
+            app:destination="@id/rambuPeringatanFragment" />
+        <action
+            android:id="@+id/action_rambuLaluLintasFragment_to_rambuPerintahFragment"
+            app:destination="@id/rambuPerintahFragment" />
+        <action
+            android:id="@+id/action_rambuLaluLintasFragment_to_rambuLaranganFragment"
+            app:destination="@id/rambuLaranganFragment" />
+        <action
+            android:id="@+id/action_rambuLaluLintasFragment_to_rambuPetunjukFragment"
+            app:destination="@id/rambuPetunjukFragment" />
+    </fragment>
 </navigation>
