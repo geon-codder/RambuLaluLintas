@@ -61,7 +61,7 @@
                 android:layout_marginTop="10dp"
                 android:layout_marginStart="5dp"
                 android:visibility="gone"
-                android:textSize="12sp"/>
+                android:textSize="18sp"/>
             <TextView
                 android:id="@+id/tvv10b"
                 android:layout_width="match_parent"
@@ -70,7 +70,7 @@
                 android:layout_marginTop="10dp"
                 android:layout_marginStart="5dp"
                 android:visibility="gone"
-                android:textSize="12sp"/>
+                android:textSize="18sp"/>
             <TextView
                 android:id="@+id/tvv10c"
                 android:layout_width="match_parent"
@@ -80,7 +80,7 @@
                 android:layout_marginBottom="20dp"
                 android:layout_marginStart="5dp"
                 android:visibility="gone"
-                android:textSize="12sp"/>
+                android:textSize="18sp"/>
 
             <TableRow>
                 <ImageView
@@ -110,7 +110,7 @@
                 android:layout_marginTop="10dp"
                 android:layout_marginStart="5dp"
                 android:visibility="gone"
-                android:textSize="12sp"/>
+                android:textSize="18sp"/>
             <TextView
                 android:id="@+id/tvv10e"
                 android:layout_width="match_parent"
@@ -119,7 +119,7 @@
                 android:layout_marginTop="10dp"
                 android:layout_marginStart="5dp"
                 android:visibility="gone"
-                android:textSize="12sp"/>
+                android:textSize="18sp"/>
 
         </TableLayout>
 
@@ -165,7 +165,7 @@
                 android:layout_marginTop="10dp"
                 android:layout_marginStart="5dp"
                 android:visibility="gone"
-                android:textSize="12sp"/>
+                android:textSize="18sp"/>
             <TextView
                 android:id="@+id/tvv1b"
                 android:layout_width="match_parent"
@@ -175,7 +175,7 @@
                 android:layout_marginBottom="20dp"
                 android:layout_marginStart="5dp"
                 android:visibility="gone"
-                android:textSize="12sp"/>
+                android:textSize="18sp"/>
 
             <TableRow>
                 <ImageView
@@ -204,7 +204,7 @@
                 android:layout_marginTop="10dp"
                 android:layout_marginStart="5dp"
                 android:visibility="gone"
-                android:textSize="12sp"/>
+                android:textSize="18sp"/>
             <TextView
                 android:id="@+id/tvv1e"
                 android:layout_width="match_parent"
@@ -214,7 +214,7 @@
                 android:layout_marginBottom="20dp"
                 android:layout_marginStart="5dp"
                 android:visibility="gone"
-                android:textSize="12sp"/>
+                android:textSize="18sp"/>
 
             <TableRow>
                 <ImageView
@@ -244,7 +244,7 @@
                 android:layout_marginTop="10dp"
                 android:layout_marginStart="5dp"
                 android:visibility="gone"
-                android:textSize="12sp"/>
+                android:textSize="18sp"/>
             <TextView
                 android:id="@+id/tvv1f"
                 android:layout_width="match_parent"
@@ -253,7 +253,7 @@
                 android:layout_marginTop="10dp"
                 android:layout_marginStart="5dp"
                 android:visibility="gone"
-                android:textSize="12sp"/>
+                android:textSize="18sp"/>
 
         </TableLayout>
 
@@ -290,7 +290,7 @@
                 android:layout_marginBottom="20dp"
                 android:layout_marginStart="5dp"
                 android:visibility="gone"
-                android:textSize="12sp"/>
+                android:textSize="18sp"/>
             <TableRow>
                 <ImageView
                     android:id="@+id/v2b"
@@ -310,7 +310,7 @@
                 android:layout_marginTop="10dp"
                 android:layout_marginStart="5dp"
                 android:visibility="gone"
-                android:textSize="12sp"/>
+                android:textSize="18sp"/>
 
         </TableLayout>
 
@@ -347,7 +347,7 @@
                 android:layout_marginBottom="20dp"
                 android:layout_marginStart="5dp"
                 android:visibility="gone"
-                android:textSize="12sp"/>
+                android:textSize="18sp"/>
             <TableRow>
                 <ImageView
                     android:id="@+id/v3b"
@@ -367,7 +367,7 @@
                 android:layout_marginTop="10dp"
                 android:layout_marginStart="5dp"
                 android:visibility="gone"
-                android:textSize="12sp"/>
+                android:textSize="18sp"/>
         </TableLayout>
 
         <TextView
@@ -411,7 +411,7 @@
                 android:layout_marginTop="10dp"
                 android:layout_marginStart="5dp"
                 android:visibility="gone"
-                android:textSize="12sp"/>
+                android:textSize="18sp"/>
             <TextView
                 android:id="@+id/tvv4b"
                 android:layout_width="match_parent"
@@ -421,7 +421,7 @@
                 android:layout_marginBottom="20dp"
                 android:layout_marginStart="5dp"
                 android:visibility="gone"
-                android:textSize="12sp"/>
+                android:textSize="18sp"/>
             <TableRow>
                 <ImageView
                     android:id="@+id/v4c"
@@ -449,7 +449,7 @@
                 android:layout_marginTop="10dp"
                 android:layout_marginStart="5dp"
                 android:visibility="gone"
-                android:textSize="12sp"/>
+                android:textSize="18sp"/>
             <TextView
                 android:id="@+id/tvv4d"
                 android:layout_width="match_parent"
@@ -458,7 +458,7 @@
                 android:layout_marginTop="10dp"
                 android:layout_marginStart="5dp"
                 android:visibility="gone"
-                android:textSize="12sp"/>
+                android:textSize="18sp"/>
 
         </TableLayout>
 
@@ -504,7 +504,7 @@
                 android:layout_marginTop="10dp"
                 android:layout_marginStart="5dp"
                 android:visibility="gone"
-                android:textSize="12sp"/>
+                android:textSize="18sp"/>
             <TextView
                 android:id="@+id/tvv5a2"
                 android:layout_width="match_parent"
@@ -514,7 +514,7 @@
                 android:layout_marginBottom="20dp"
                 android:layout_marginStart="5dp"
                 android:visibility="gone"
-                android:textSize="12sp"/>
+                android:textSize="18sp"/>
 
             <TableRow>
                 <ImageView
@@ -543,7 +543,7 @@
                 android:layout_marginTop="10dp"
                 android:layout_marginStart="5dp"
                 android:visibility="gone"
-                android:textSize="12sp"/>
+                android:textSize="18sp"/>
             <TextView
                 android:id="@+id/tvv5a4"
                 android:layout_width="match_parent"
@@ -552,7 +552,7 @@
                 android:layout_marginTop="10dp"
                 android:layout_marginStart="5dp"
                 android:visibility="gone"
-                android:textSize="12sp"/>
+                android:textSize="18sp"/>
 
         </TableLayout>
 
@@ -598,7 +598,7 @@
                 android:layout_marginTop="10dp"
                 android:layout_marginStart="5dp"
                 android:visibility="gone"
-                android:textSize="12sp"/>
+                android:textSize="18sp"/>
             <TextView
                 android:id="@+id/tvv5b2"
                 android:layout_width="match_parent"
@@ -608,7 +608,7 @@
                 android:layout_marginBottom="20dp"
                 android:layout_marginStart="5dp"
                 android:visibility="gone"
-                android:textSize="12sp"/>
+                android:textSize="18sp"/>
 
             <TableRow>
                 <ImageView
@@ -637,7 +637,7 @@
                 android:layout_marginTop="10dp"
                 android:layout_marginStart="5dp"
                 android:visibility="gone"
-                android:textSize="12sp"/>
+                android:textSize="18sp"/>
             <TextView
                 android:id="@+id/tvv5c2"
                 android:layout_width="match_parent"
@@ -647,7 +647,7 @@
                 android:layout_marginBottom="20dp"
                 android:layout_marginStart="5dp"
                 android:visibility="gone"
-                android:textSize="12sp"/>
+                android:textSize="18sp"/>
 
         </TableLayout>
 
@@ -700,7 +700,7 @@
                 android:layout_marginTop="10dp"
                 android:layout_marginStart="5dp"
                 android:visibility="gone"
-                android:textSize="12sp"/>
+                android:textSize="18sp"/>
             <TextView
                 android:id="@+id/tvv5d2"
                 android:layout_width="match_parent"
@@ -709,7 +709,7 @@
                 android:layout_marginTop="10dp"
                 android:layout_marginStart="5dp"
                 android:visibility="gone"
-                android:textSize="12sp"/>
+                android:textSize="18sp"/>
             <TextView
                 android:id="@+id/tvv5d3"
                 android:layout_width="match_parent"
@@ -718,7 +718,7 @@
                 android:layout_marginTop="10dp"
                 android:layout_marginStart="5dp"
                 android:visibility="gone"
-                android:textSize="12sp"/>
+                android:textSize="18sp"/>
         </TableLayout>
 
         <TextView
@@ -753,7 +753,7 @@
                 android:layout_marginTop="10dp"
                 android:layout_marginStart="5dp"
                 android:visibility="gone"
-                android:textSize="12sp"/>
+                android:textSize="18sp"/>
         </TableLayout>
 
         <TextView
@@ -798,7 +798,7 @@
                 android:layout_marginTop="10dp"
                 android:layout_marginStart="5dp"
                 android:visibility="gone"
-                android:textSize="12sp"/>
+                android:textSize="18sp"/>
             <TextView
                 android:id="@+id/tvv5f2"
                 android:layout_width="match_parent"
@@ -807,7 +807,7 @@
                 android:layout_marginTop="10dp"
                 android:layout_marginStart="5dp"
                 android:visibility="gone"
-                android:textSize="12sp"/>
+                android:textSize="18sp"/>
 
         </TableLayout>
 
@@ -853,7 +853,7 @@
                 android:layout_marginTop="10dp"
                 android:layout_marginStart="5dp"
                 android:visibility="gone"
-                android:textSize="12sp"/>
+                android:textSize="18sp"/>
             <TextView
                 android:id="@+id/tvv5g2"
                 android:layout_width="match_parent"
@@ -862,7 +862,7 @@
                 android:layout_marginTop="10dp"
                 android:layout_marginStart="5dp"
                 android:visibility="gone"
-                android:textSize="12sp"/>
+                android:textSize="18sp"/>
 
         </TableLayout>
 
@@ -917,7 +917,7 @@
                 android:layout_marginTop="10dp"
                 android:layout_marginStart="5dp"
                 android:visibility="gone"
-                android:textSize="12sp"/>
+                android:textSize="18sp"/>
             <TextView
                 android:id="@+id/tvv5h2"
                 android:layout_width="match_parent"
@@ -926,7 +926,7 @@
                 android:layout_marginTop="10dp"
                 android:layout_marginStart="5dp"
                 android:visibility="gone"
-                android:textSize="12sp"/>
+                android:textSize="18sp"/>
             <TextView
                 android:id="@+id/tvv5h3"
                 android:layout_width="match_parent"
@@ -936,7 +936,7 @@
                 android:layout_marginBottom="20dp"
                 android:layout_marginStart="5dp"
                 android:visibility="gone"
-                android:textSize="12sp"/>
+                android:textSize="18sp"/>
 
             <TableRow>
                 <ImageView
@@ -976,7 +976,7 @@
                 android:layout_marginTop="10dp"
                 android:layout_marginStart="5dp"
                 android:visibility="gone"
-                android:textSize="12sp"/>
+                android:textSize="18sp"/>
             <TextView
                 android:id="@+id/tvv5h5"
                 android:layout_width="match_parent"
@@ -985,7 +985,7 @@
                 android:layout_marginTop="10dp"
                 android:layout_marginStart="5dp"
                 android:visibility="gone"
-                android:textSize="12sp"/>
+                android:textSize="18sp"/>
             <TextView
                 android:id="@+id/tvv5h6"
                 android:layout_width="match_parent"
@@ -994,7 +994,7 @@
                 android:layout_marginTop="10dp"
                 android:layout_marginStart="5dp"
                 android:visibility="gone"
-                android:textSize="12sp"/>
+                android:textSize="18sp"/>
 
         </TableLayout>
 
@@ -1040,7 +1040,7 @@
                 android:layout_marginTop="10dp"
                 android:layout_marginStart="5dp"
                 android:visibility="gone"
-                android:textSize="12sp"/>
+                android:textSize="18sp"/>
             <TextView
                 android:id="@+id/tvv6a2"
                 android:layout_width="match_parent"
@@ -1049,7 +1049,7 @@
                 android:layout_marginTop="10dp"
                 android:layout_marginStart="5dp"
                 android:visibility="gone"
-                android:textSize="12sp"/>
+                android:textSize="18sp"/>
 
             <TableRow>
                 <ImageView
@@ -1080,7 +1080,7 @@
                 android:layout_marginTop="10dp"
                 android:layout_marginStart="5dp"
                 android:visibility="gone"
-                android:textSize="12sp"/>
+                android:textSize="18sp"/>
             <TextView
                 android:id="@+id/tvv6a4"
                 android:layout_width="match_parent"
@@ -1089,7 +1089,7 @@
                 android:layout_marginTop="10dp"
                 android:layout_marginStart="5dp"
                 android:visibility="gone"
-                android:textSize="12sp"/>
+                android:textSize="18sp"/>
 
         </TableLayout>
 
@@ -1144,7 +1144,7 @@
                 android:layout_marginTop="10dp"
                 android:layout_marginStart="5dp"
                 android:visibility="gone"
-                android:textSize="12sp"/>
+                android:textSize="18sp"/>
             <TextView
                 android:id="@+id/tvv6b2"
                 android:layout_width="match_parent"
@@ -1153,7 +1153,7 @@
                 android:layout_marginTop="10dp"
                 android:layout_marginStart="5dp"
                 android:visibility="gone"
-                android:textSize="12sp"/>
+                android:textSize="18sp"/>
             <TextView
                 android:id="@+id/tvv6b3"
                 android:layout_width="match_parent"
@@ -1163,7 +1163,7 @@
                 android:layout_marginBottom="20dp"
                 android:layout_marginStart="5dp"
                 android:visibility="gone"
-                android:textSize="12sp"/>
+                android:textSize="18sp"/>
 
             <TableRow>
                 <ImageView
@@ -1203,7 +1203,7 @@
                 android:layout_marginTop="10dp"
                 android:layout_marginStart="5dp"
                 android:visibility="gone"
-                android:textSize="12sp"/>
+                android:textSize="18sp"/>
             <TextView
                 android:id="@+id/tvv6b5"
                 android:layout_width="match_parent"
@@ -1212,7 +1212,7 @@
                 android:layout_marginTop="10dp"
                 android:layout_marginStart="5dp"
                 android:visibility="gone"
-                android:textSize="12sp"/>
+                android:textSize="18sp"/>
             <TextView
                 android:id="@+id/tvv6b6"
                 android:layout_width="match_parent"
@@ -1222,7 +1222,7 @@
                 android:layout_marginBottom="20dp"
                 android:layout_marginStart="5dp"
                 android:visibility="gone"
-                android:textSize="12sp"/>
+                android:textSize="18sp"/>
 
             <TableRow>
                 <ImageView
@@ -1253,7 +1253,7 @@
                 android:layout_marginTop="10dp"
                 android:layout_marginStart="5dp"
                 android:visibility="gone"
-                android:textSize="12sp"/>
+                android:textSize="18sp"/>
             <TextView
                 android:id="@+id/tvv6b8"
                 android:layout_width="match_parent"
@@ -1262,7 +1262,7 @@
                 android:layout_marginTop="10dp"
                 android:layout_marginStart="5dp"
                 android:visibility="gone"
-                android:textSize="12sp"/>
+                android:textSize="18sp"/>
 
         </TableLayout>
 
@@ -1317,7 +1317,7 @@
                 android:layout_marginTop="10dp"
                 android:layout_marginStart="5dp"
                 android:visibility="gone"
-                android:textSize="12sp"/>
+                android:textSize="18sp"/>
             <TextView
                 android:id="@+id/tvv6c2"
                 android:layout_width="match_parent"
@@ -1326,7 +1326,7 @@
                 android:layout_marginTop="10dp"
                 android:layout_marginStart="5dp"
                 android:visibility="gone"
-                android:textSize="12sp"/>
+                android:textSize="18sp"/>
             <TextView
                 android:id="@+id/tvv6c3"
                 android:layout_width="match_parent"
@@ -1336,7 +1336,7 @@
                 android:layout_marginBottom="20dp"
                 android:layout_marginStart="5dp"
                 android:visibility="gone"
-                android:textSize="12sp"/>
+                android:textSize="18sp"/>
 
             <TableRow>
                 <ImageView
@@ -1367,7 +1367,7 @@
                 android:layout_marginTop="10dp"
                 android:layout_marginStart="5dp"
                 android:visibility="gone"
-                android:textSize="12sp"/>
+                android:textSize="18sp"/>
             <TextView
                 android:id="@+id/tvv6c5"
                 android:layout_width="match_parent"
@@ -1376,7 +1376,7 @@
                 android:layout_marginTop="10dp"
                 android:layout_marginStart="5dp"
                 android:visibility="gone"
-                android:textSize="12sp"/>
+                android:textSize="18sp"/>
 
         </TableLayout>
 
@@ -1431,7 +1431,7 @@
                 android:layout_marginTop="10dp"
                 android:layout_marginStart="5dp"
                 android:visibility="gone"
-                android:textSize="12sp"/>
+                android:textSize="18sp"/>
             <TextView
                 android:id="@+id/tvv6d2"
                 android:layout_width="match_parent"
@@ -1440,7 +1440,7 @@
                 android:layout_marginTop="10dp"
                 android:layout_marginStart="5dp"
                 android:visibility="gone"
-                android:textSize="12sp"/>
+                android:textSize="18sp"/>
             <TextView
                 android:id="@+id/tvv6d3"
                 android:layout_width="match_parent"
@@ -1450,7 +1450,7 @@
                 android:layout_marginBottom="20dp"
                 android:layout_marginStart="5dp"
                 android:visibility="gone"
-                android:textSize="12sp"/>
+                android:textSize="18sp"/>
 
             <TableRow>
                 <ImageView
@@ -1490,7 +1490,7 @@
                 android:layout_marginTop="10dp"
                 android:layout_marginStart="5dp"
                 android:visibility="gone"
-                android:textSize="12sp"/>
+                android:textSize="18sp"/>
             <TextView
                 android:id="@+id/tvv6d5"
                 android:layout_width="match_parent"
@@ -1499,7 +1499,7 @@
                 android:layout_marginTop="10dp"
                 android:layout_marginStart="5dp"
                 android:visibility="gone"
-                android:textSize="12sp"/>
+                android:textSize="18sp"/>
             <TextView
                 android:id="@+id/tvv6d6"
                 android:layout_width="match_parent"
@@ -1509,7 +1509,7 @@
                 android:layout_marginBottom="20dp"
                 android:layout_marginStart="5dp"
                 android:visibility="gone"
-                android:textSize="12sp"/>
+                android:textSize="18sp"/>
 
             <TableRow>
                 <ImageView
@@ -1549,7 +1549,7 @@
                 android:layout_marginTop="10dp"
                 android:layout_marginStart="5dp"
                 android:visibility="gone"
-                android:textSize="12sp"/>
+                android:textSize="18sp"/>
             <TextView
                 android:id="@+id/tvv6e1"
                 android:layout_width="match_parent"
@@ -1558,7 +1558,7 @@
                 android:layout_marginTop="10dp"
                 android:layout_marginStart="5dp"
                 android:visibility="gone"
-                android:textSize="12sp"/>
+                android:textSize="18sp"/>
             <TextView
                 android:id="@+id/tvv6e2"
                 android:layout_width="match_parent"
@@ -1568,7 +1568,7 @@
                 android:layout_marginBottom="20dp"
                 android:layout_marginStart="5dp"
                 android:visibility="gone"
-                android:textSize="12sp"/>
+                android:textSize="18sp"/>
 
             <TableRow>
                 <ImageView
@@ -1599,7 +1599,7 @@
                 android:layout_marginTop="10dp"
                 android:layout_marginStart="5dp"
                 android:visibility="gone"
-                android:textSize="12sp"/>
+                android:textSize="18sp"/>
             <TextView
                 android:id="@+id/tvv6e4"
                 android:layout_width="match_parent"
@@ -1608,7 +1608,7 @@
                 android:layout_marginTop="10dp"
                 android:layout_marginStart="5dp"
                 android:visibility="gone"
-                android:textSize="12sp"/>
+                android:textSize="18sp"/>
         </TableLayout>
 
         <TextView
@@ -1652,7 +1652,7 @@
                 android:layout_marginTop="10dp"
                 android:layout_marginStart="5dp"
                 android:visibility="gone"
-                android:textSize="12sp"/>
+                android:textSize="18sp"/>
             <TextView
                 android:id="@+id/tvv6f2"
                 android:layout_width="match_parent"
@@ -1661,7 +1661,7 @@
                 android:layout_marginTop="10dp"
                 android:layout_marginStart="5dp"
                 android:visibility="gone"
-                android:textSize="12sp"/>
+                android:textSize="18sp"/>
         </TableLayout>
 
         <TextView
@@ -1706,7 +1706,7 @@
                 android:layout_marginTop="10dp"
                 android:layout_marginStart="5dp"
                 android:visibility="gone"
-                android:textSize="12sp"/>
+                android:textSize="18sp"/>
             <TextView
                 android:id="@+id/tvv7a"
                 android:layout_width="match_parent"
@@ -1716,7 +1716,7 @@
                 android:layout_marginBottom="20dp"
                 android:layout_marginStart="5dp"
                 android:visibility="gone"
-                android:textSize="12sp"/>
+                android:textSize="18sp"/>
 
 
             <TableRow>
@@ -1748,7 +1748,7 @@
                 android:layout_marginTop="10dp"
                 android:layout_marginStart="5dp"
                 android:visibility="gone"
-                android:textSize="12sp"/>
+                android:textSize="18sp"/>
             <TextView
                 android:id="@+id/tvv7c"
                 android:layout_width="match_parent"
@@ -1758,7 +1758,7 @@
                 android:layout_marginBottom="20dp"
                 android:layout_marginStart="5dp"
                 android:visibility="gone"
-                android:textSize="12sp"/>
+                android:textSize="18sp"/>
 
             <TableRow>
                 <ImageView
@@ -1798,7 +1798,7 @@
                 android:layout_marginTop="10dp"
                 android:layout_marginStart="5dp"
                 android:visibility="gone"
-                android:textSize="12sp"/>
+                android:textSize="18sp"/>
             <TextView
                 android:id="@+id/tvv7e"
                 android:layout_width="match_parent"
@@ -1807,7 +1807,7 @@
                 android:layout_marginTop="10dp"
                 android:layout_marginStart="5dp"
                 android:visibility="gone"
-                android:textSize="12sp"/>
+                android:textSize="18sp"/>
             <TextView
                 android:id="@+id/tvv7f"
                 android:layout_width="match_parent"
@@ -1817,7 +1817,7 @@
                 android:layout_marginBottom="20dp"
                 android:layout_marginStart="5dp"
                 android:visibility="gone"
-                android:textSize="12sp"/>
+                android:textSize="18sp"/>
 
             <TableRow>
                 <ImageView
@@ -1847,7 +1847,7 @@
                 android:layout_marginTop="10dp"
                 android:layout_marginStart="5dp"
                 android:visibility="gone"
-                android:textSize="12sp"/>
+                android:textSize="18sp"/>
             <TextView
                 android:id="@+id/tvv7i"
                 android:layout_width="match_parent"
@@ -1856,7 +1856,7 @@
                 android:layout_marginTop="10dp"
                 android:layout_marginStart="5dp"
                 android:visibility="gone"
-                android:textSize="12sp"/>
+                android:textSize="18sp"/>
         </TableLayout>
 
         <TextView
@@ -1893,7 +1893,7 @@
                 android:layout_marginBottom="20dp"
                 android:layout_marginStart="5dp"
                 android:visibility="gone"
-                android:textSize="12sp"/>
+                android:textSize="18sp"/>
             <TableRow>
                 <ImageView
                     android:id="@+id/v9"
@@ -1914,7 +1914,7 @@
                 android:layout_marginBottom="20dp"
                 android:layout_marginStart="5dp"
                 android:visibility="gone"
-                android:textSize="12sp"/>
+                android:textSize="18sp"/>
         </TableLayout>
 
     </LinearLayout>

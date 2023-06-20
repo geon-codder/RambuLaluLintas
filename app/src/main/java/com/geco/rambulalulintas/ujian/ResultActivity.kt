@@ -36,9 +36,9 @@ class ResultActivity : AppCompatActivity() {
     @SuppressLint("SetTextI18n")
     private fun initializeViews() {
         binding.apply {
-            tvScore.text = "Score: $totalScore"
-            tvright.text = "Correct: $correct"
-            tvwrong.text = "Wrong: $wrong"
+            tvScore.text = "Skor: $totalScore"
+            tvright.text = "Benar: $correct"
+            tvwrong.text = "Salah: $wrong"
             tvSkip.text = "Skip: $skip"
             if (totalScore >= 6) {
                 binding.emojiReactionImg.setImageResource(R.drawable.emo_correct)

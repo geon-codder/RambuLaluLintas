@@ -10,6 +10,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textSize="35dp"
+        android:layout_marginTop="60dp"
         android:textColor="@color/black"
         android:layout_gravity="center"
         android:text="Cerdas Berlalu Lintas"/>
@@ -19,7 +20,7 @@
         android:id="@+id/splash_logo"
         android:layout_width="wrap_content"
         android:layout_height="200dp"
-        android:src="@drawable/logopolantas"/>
+        android:src="@drawable/logo_darmakerta"/>
 
     <TextView
         android:layout_width="wrap_content"
@@ -44,7 +45,7 @@
         android:layout_marginBottom="20dp"
         android:text="Sebagai Kebutuhan"/>
 
-<!-- TODO GANTI KE TABLE LAYOUT-->
+
     <TableLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -72,7 +73,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="Ujian sim"/>
+                android:text="evaluasi"/>
 
             <Button
                 android:id="@+id/btnProfil"
@@ -84,6 +85,16 @@
         </TableRow>
 
     </TableLayout>
+
+<!--    <TextView-->
+<!--        android:id="@+id/tvAlertPanduan"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="match_parent"-->
+<!--        android:textSize="35dp"-->
+<!--        android:textColor="@color/black"-->
+<!--        android:gravity="bottom"-->
+<!--        android:layout_gravity="center|end|bottom"-->
+<!--        android:text="Menu Panduan Disini"/>-->
 
 
 </LinearLayout>

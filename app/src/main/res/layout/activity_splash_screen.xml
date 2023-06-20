@@ -13,16 +13,18 @@
         android:id="@+id/splash_logo"
         android:layout_width="wrap_content"
         android:layout_height="250dp"
-        android:src="@drawable/logopolantas"/>
+        android:src="@drawable/logo_darmakerta"/>
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textSize="50dp"
+        android:textColor="@color/black"
         android:text="CERDAS"/>
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:textColor="@color/black"
         android:textSize="45dp"
         android:text="BERLALU LINTAS"/>
 

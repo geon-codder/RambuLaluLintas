@@ -29,11 +29,12 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="3dp"
         android:layout_marginStart="10dp"
-        android:textSize="20sp"
+        android:textSize="18sp"
         android:textColor="@color/black"
         android:layout_gravity="center"
         android:layout_marginEnd="10dp"
-        android:text="Aplikasi Pembelajaran Rambu Lalu"/>
+        android:text="Pengembangan Aplikasi Pembelajaran"/>
+
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -42,12 +43,30 @@
         android:textColor="@color/black"
         android:layout_gravity="center"
         android:layout_marginEnd="10dp"
-        android:text="Lintas Dan Peraturan Berkendara"/>
+        android:text="Rambu Lalu Lintas"/>
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="10dp"
-        android:textSize="24sp"
+        android:textSize="20sp"
+        android:textColor="@color/black"
+        android:layout_gravity="center"
+        android:layout_marginEnd="10dp"
+        android:text="dan"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:textSize="20sp"
+        android:textColor="@color/black"
+        android:layout_gravity="center"
+        android:layout_marginEnd="10dp"
+        android:text="Peraturan Berkendara"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:textSize="22sp"
         android:textColor="@color/black"
         android:layout_gravity="center"
         android:layout_marginEnd="10dp"
@@ -63,17 +82,24 @@
         android:layout_gravity="center"
         android:text=" "/>
 
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="206dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="5dp"
+        android:src="@drawable/fotofadil" />
+
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="10dp"
-        android:layout_marginTop="60dp"
+        android:layout_marginTop="10dp"
         android:textSize="15sp"
         android:textColor="@color/black"
         android:layout_gravity="center"
         android:layout_marginEnd="10dp"
-        android:text="Muhammad Fadil Wahyudi"/>
+        android:text="Muhammad Fadhil Wahyudi"/>
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -105,7 +131,7 @@
                 android:layout_marginStart="10dp"
                 android:layout_marginEnd="10dp"
                 android:layout_weight="1"
-                android:src="@drawable/logo_wa"
+                android:src="@drawable/logo_whatsapp"
                 android:contentDescription="sample"
                 />
             <ImageView
@@ -149,7 +175,7 @@
         android:id="@+id/tvGmail"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Gmail: fadhilwahyudi2110@gmail.com"
+        android:text="Gmail: wahyudimuhammadfadhil@gmail.com"
         android:layout_marginTop="10dp"
         android:layout_marginBottom="20dp"
         android:layout_marginStart="5dp"

@@ -360,7 +360,7 @@ class UjianActivity : AppCompatActivity() {
         builder.setView(view)
         val tvScore = view.findViewById<TextView>(R.id.tvDialog_score)
         val correctOkBtn = view.findViewById<Button>(R.id.correct_ok)
-        tvScore.text = "Score : $correct"
+        tvScore.text = "Skor : $correct"
         val alertDialog = builder.create()
         correctOkBtn.setOnClickListener {
             timeLeftMilliSeconds = countDownInMilliSecond
@@ -376,7 +376,7 @@ class UjianActivity : AppCompatActivity() {
         builder.setView(view)
         val tvWrongDialogCorrectAns = view.findViewById<TextView>(R.id.tv_wrongDialog_correctAns)
         val wrongOk = view.findViewById<Button>(R.id.wrong_ok)
-        tvWrongDialogCorrectAns.text = "Correct Answer : " + answer[qIndex]
+        tvWrongDialogCorrectAns.text = "Jawaban Benar : " + answer[qIndex]
         val alertDialog = builder.create()
         wrongOk.setOnClickListener {
             timeLeftMilliSeconds =
