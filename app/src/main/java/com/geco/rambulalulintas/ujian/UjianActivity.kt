@@ -246,6 +246,8 @@ class UjianActivity : AppCompatActivity() {
         "Asap tebal dari knalpot kendaraan di depan",
         "Kondisi kesehatan pengemudi"
         )
+
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         binding = ActivityUjianBinding.inflate(layoutInflater)

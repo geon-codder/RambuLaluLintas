@@ -4,6 +4,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
+    android:background="@color/coklatgelap"
     tools:context=".HomeFragment">
 
     <TextView
@@ -11,7 +12,7 @@
         android:layout_height="wrap_content"
         android:textSize="35dp"
         android:layout_marginTop="60dp"
-        android:textColor="@color/black"
+        android:textColor="@color/white"
         android:layout_gravity="center"
         android:text="Cerdas Berlalu Lintas"/>
 
@@ -27,20 +28,20 @@
         android:layout_height="wrap_content"
         android:textSize="25dp"
         android:layout_gravity="center"
-        android:textColor="@color/black"
+        android:textColor="@color/white"
         android:text="Jadilah Pelopor Keselamatan"/>
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textSize="26dp"
         android:layout_gravity="center"
-        android:textColor="@color/black"
+        android:textColor="@color/white"
         android:text="Berlalu Lintas Dan Budayakan"/>
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textSize="26dp"
-        android:textColor="@color/black"
+        android:textColor="@color/white"
         android:layout_gravity="center"
         android:layout_marginBottom="20dp"
         android:text="Sebagai Kebutuhan"/>

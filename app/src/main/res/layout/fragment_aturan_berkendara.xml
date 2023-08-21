@@ -4,6 +4,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
+    android:background="@color/coklatgelap"
     tools:context=".aturan.AturanBerkendaraFragment">
 
 
@@ -13,7 +14,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="70dp"
         android:textStyle="bold"
-        android:textColor="@color/black"
+        android:textColor="@color/white"
         android:gravity="center"
         android:text="Belum Ada Pasal yang dipilih" />
 
@@ -23,7 +24,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
         android:backgroundTint="@color/teal_200"
-        android:textColor="@color/black"
+        android:textColor="@color/white"
         android:background="@drawable/gradient_box"
         android:layout_marginStart="10dp"
         android:textStyle="bold"

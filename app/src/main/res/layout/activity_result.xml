@@ -4,6 +4,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:gravity="center"
+    android:background="@color/coklatgelap"
     android:orientation="vertical">
 
     <TextView
@@ -13,7 +14,7 @@
         android:layout_marginTop="30dp"
         android:gravity="center"
         android:text="Hasil Evaluasi Pengetahuan"
-        android:textColor="@android:color/black"
+        android:textColor="@android:color/white"
         android:textSize="24sp"
         android:textStyle="bold" />
 
@@ -29,7 +30,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="30dp"
         android:layout_marginBottom="16dp"
-        android:background="@android:color/white"
+        android:background="@color/coklatgelap"
         android:orientation="horizontal">
 
         <LinearLayout
@@ -47,7 +48,7 @@
                 android:gravity="center"
                 android:padding="12dp"
                 android:text="Benar: 0"
-                android:textColor="@android:color/black"
+                android:textColor="@android:color/white"
                 android:textSize="16sp"
                 android:textStyle="bold" />
 
@@ -58,7 +59,7 @@
                 android:gravity="center"
                 android:padding="12dp"
                 android:text="Salah: 0"
-                android:textColor="@android:color/black"
+                android:textColor="@android:color/white"
                 android:textSize="16sp"
                 android:textStyle="bold" />
         </LinearLayout>
@@ -78,7 +79,7 @@
                 android:gravity="center"
                 android:padding="12dp"
                 android:text="Score: 0"
-                android:textColor="@android:color/black"
+                android:textColor="@android:color/white"
                 android:textSize="16sp"
                 android:textStyle="bold" />
 
@@ -89,7 +90,7 @@
                 android:gravity="center"
                 android:padding="12dp"
                 android:text="Skip: 0"
-                android:textColor="@android:color/black"
+                android:textColor="@android:color/white"
                 android:textSize="16sp"
                 android:textStyle="bold" />
 

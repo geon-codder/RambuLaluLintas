@@ -4,6 +4,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
+    android:background="@color/coklatgelap"
     tools:context=".PanduanFragment">
 
 
@@ -13,6 +14,7 @@
         android:layout_marginStart="10dp"
         android:layout_marginTop="10dp"
         android:layout_marginEnd="10dp"
+        android:textColor="@color/white"
         android:background="@color/teal_200"
         android:text="Aplikasi Cerdas Berlalu Lintas Memiliki 4 Tombol Utama" />
 
@@ -22,6 +24,8 @@
         android:layout_marginStart="10dp"
         android:layout_marginTop="10dp"
         android:layout_marginEnd="10dp"
+        android:textColor="@color/white"
+        android:textStyle="bold"
         android:background="@color/teal_200"
         android:text="1. Tombol Rambu Lalu Lintas" />
     <TextView
@@ -29,6 +33,7 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="10dp"
         android:layout_marginEnd="10dp"
+        android:textColor="@color/white"
         android:text="Tombol Rambu Lalu Lintas Berisi Gambar Rambu Lalu Lintas Berisi Gambar Rambu Lalu Lintas Beserta Penjelasannya, Di mana Rambu Sendiri Terbagi Menjadi 4, Yaitu Rambu Peringatan, Rambu Larangan, Rambu Perintah, dan Rambu Petunjuk." />
 
     <TextView
@@ -38,12 +43,15 @@
         android:layout_marginTop="10dp"
         android:background="@color/teal_200"
         android:layout_marginEnd="10dp"
+        android:textStyle="bold"
+        android:textColor="@color/white"
         android:text="2. Tombol Aturan Berkendara" />
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginStart="10dp"
         android:layout_marginEnd="10dp"
+        android:textColor="@color/white"
         android:text="Tombol Aturan Berkendara Berisi Pasal Tentang Bagaimana Pengendara Harus Bersikap di jalan" />
 
     <TextView
@@ -52,12 +60,15 @@
         android:layout_marginStart="10dp"
         android:layout_marginTop="10dp"
         android:background="@color/teal_200"
+        android:textColor="@color/white"
+        android:textStyle="bold"
         android:layout_marginEnd="10dp"
         android:text="3. Tombol Simulasi Ujian Sim" />
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginStart="10dp"
+        android:textColor="@color/white"
         android:layout_marginEnd="10dp"
         android:text="Tombol Ujian SIM Berisi Contoh Soal Yang Akan Diujikan Saat Pengujian SIM Teori." />
 
@@ -68,11 +79,14 @@
         android:layout_marginTop="10dp"
         android:background="@color/teal_200"
         android:layout_marginEnd="10dp"
+        android:textColor="@color/white"
+        android:textStyle="bold"
         android:text="4. Tombol Profil" />
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginStart="10dp"
+        android:textColor="@color/white"
         android:layout_marginEnd="10dp"
         android:text="Tombol Profil Berisi Tentang Data Pembuat Aplikasi" />
 
